@@ -1,0 +1,56 @@
+section
+{
+    height: 826px;
+    background-color: #fcfcf4;
+}
+
+#select{
+    width: 1600px;
+    height:826px;
+   /* overflow-y: auto;*/
+}
+#titulo{
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    margin-bottom: 50px;
+    color:#4682B4;
+
+}
+
+#containerTable{
+    width:101%;
+    margin-left:8px;
+    height: 826px;
+    /*-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);*/
+}
+#quartinho{
+    width:49%;
+    height:95%;
+    background-image: url(../imagens/quartinho.jpg);
+    background-repeat: no-repeat;
+    float:left;
+     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    margin-left:10px;
+    margin-top:20px;
+}
+#hotelzinho{
+    width:49%;
+    height:95%;
+    background-image: url(../imagens/hotelzinho.jpg);
+    background-repeat: no-repeat;
+    float:left;
+    background-color:red;
+    margin-left:10px;
+     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    margin-right:10px;
+    margin-top:20px;
+
+}

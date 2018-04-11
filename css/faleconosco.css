@@ -1,0 +1,442 @@
+/*Mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    #faleconoscodesktop
+    {
+        display: none;
+    }
+    /* Conteúdo da página faleconosco.php */
+    body
+    {
+        overflow-x: hidden;
+    }
+
+    section
+    {
+        width: 100%;
+		min-height: 100%;
+        display: flex;
+        padding-bottom: 25px;
+    }
+
+    .conteudoboxcontato
+    {
+        width: 100%;
+        margin: 0 auto;
+        color: #fff;
+        margin-top: 25px;
+    }
+
+    .conteudoboxcontato table
+    {
+        background-color: #4682b4;
+        width: 100%;
+        padding: 8px;
+        text-align: center;
+    }
+
+    #conteudomobile
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #formulariomob
+    {
+        width: 100%;
+        background-color: #4682b4;
+        margin-top: 25px;
+        color: #fff;
+    }
+
+    #formulariomob table
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+    #formulariomob input[type="text"]
+    {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #formulariomob input[type="email"]
+    {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #formulariomob input[type="tel"]
+    {
+        width: 95%;
+        margin: 0 auto;
+    }
+    #formulariomob textarea
+    {
+        resize: none;
+        width: 95%;
+    }
+    #formulariomob input[type="submit"]
+    {
+        width: 100%;
+        background-color: #031634;
+        border: 0;
+        color: #fff;
+        font-size: 18pt;
+    }
+
+}
+
+/*Mobile*/
+@media only screen and (min-device-width : 481px)
+{
+    #faleconoscomobile
+    {
+        display: none;
+    }
+    /* Conteúdo da página faleconosco.php */
+    body
+    {
+        width: 100%;
+        background-image: url("../imagens/faleconosco/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    section
+    {
+        display: flex;
+        width: 100%;
+        height: 500px;
+    }
+
+    section:first-of-type
+    {
+        height: 300px;
+    }
+
+    section:first-of-type .conteudo
+    {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    section .conteudo
+    {
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    /**/
+
+    /* Caixa de botões para movimentação do slider */
+    #boxBotoes
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.6);
+        text-align: center;
+    }
+
+    #boxBotoes table
+    {
+        width: 60%;
+        margin: 0 auto;
+        color: #fff;
+        padding-top: 0px;
+    }
+
+    #boxBotoes table td
+    {
+        width: 33.3%;
+    }
+
+    #boxBotoes span
+    {
+        color: red;
+        font-family: Arial;
+        font-size: 10pt;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        text-align: center;
+    }
+
+    #boxBotoes td img
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        overflow: hidden;
+        cursor: pointer;
+        padding: 4px;
+        border: solid 5px #fff;
+    }
+
+    #boxBotoes td img:hover
+    {
+        -moz-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    td h3
+    {
+        cursor: pointer;
+    }
+    /**/
+    /*Caixa de conteúdo slider*/
+    section:nth-of-type(2)
+    {
+        width: 100%;
+    }
+
+    .conteudobox
+    {
+        border-top: solid 1px #000;
+        height: 100%;
+        width: 1920px;
+        left: 0;
+        position: absolute;
+    }
+
+    .conteudobox:nth-child(2)
+    {
+        margin-left: 1920px;
+    }
+
+    .conteudobox:nth-child(3)
+    {
+        margin-left: 3840px;
+    }
+
+    .conteudobox:nth-child(4)
+    {
+        margin-left: 5760px;
+    }
+
+    #slider
+    {
+        overflow: hidden;
+        position: relative;
+    }
+    /**/
+    /*Caixa de conteúdo de informações de contato*/
+    #informacoesContato
+    {
+        color: #fff;
+        width: 15%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    /**/
+    /*Caixa de conteúdo de FAQ*/
+    #perguntasbox
+    {
+        width: 30%;
+        height: 90%;
+        overflow-y: auto;
+        margin-top: 25px;
+        margin-left: 200px;
+        float: left;
+    }
+
+    #perguntasbox h3
+    {
+        background-color: #4682b4;
+        border: none;
+        color: #fff;
+    }
+
+    #perguntasbox li
+    {
+        cursor: pointer;
+    }
+
+    #perguntasbox li:hover
+    {
+        font-weight: bold;
+    }
+
+    #respostasbox
+    {
+        float: right;
+        margin-right: 200px;
+        width: 30%;
+        height: 90%;
+        max-height: 90%;
+    }
+
+    #respostasbox h3
+    {
+        background-color: #4682b4;
+        height: 36px;
+        border-radius: 3px 3px 0px 0px;
+        padding-left: 6px;
+        line-height: 2;
+        color: #fff;
+        margin-bottom: 0;
+    }
+
+    #respostasbox div
+    {
+        padding: 0;
+        margin: 0;
+        background-color: #fff;
+        width: 100%;
+        height: 90%;
+        max-height: 90%;
+        overflow-y: auto;
+    }
+
+    #respostasbox p
+    {
+        text-align: justify;
+        text-indent: 30px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+    }
+    /**/
+    /*Caixa de conteúdo da seleção de categoria de formulário*/
+    #formbox
+    {
+        width: 65%;
+        height: 250px;
+        background-color: #fff;
+        margin: 0 auto;
+        margin-top: 100px;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+
+    #formcatbox
+    {
+        width: 80%;
+        height: 95%;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    .formcat
+    {
+        width: 24%;
+        height: 100%;
+        display: inline-block;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #4682b4;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .formcat img
+    {
+        width: 150px;
+        height: 150px;
+        margin-left: 20%;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .formcat h3
+    {
+        margin: 0;
+        margin-top: 10px;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 18pt;
+
+    }
+    /**/
+    /*Caixa de conteúdo de formulário*/
+    #voltarForm
+    {
+        cursor: pointer;
+    }
+
+    #formulario
+    {
+        width: 40%;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+
+    #formulario h3
+    {
+        width: 100%;
+        background-color: #4682B4;
+        height: 40px;
+        line-height: 2;
+        color: #fff;
+        border-radius: 12px 12px 0px 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #formulario h3 span
+    {
+        margin-left: 16px;
+    }
+
+    #formulario table
+    {
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-left: 16px;
+        height: 375px;
+    }
+
+    #formulario table td
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    #formulario table input
+    {
+        width: 97.5%;
+        border: 1px solid #ccc;
+        height: 25px;
+        border-radius: 3px;
+
+    }
+
+    #formulario table input[type="submit"]
+    {
+        width: 20%;
+        height: 45px;
+        float: right;
+        margin-right: 16px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    #formulario table #slcCategoria
+    {
+        width: 97.5%;
+        text-transform: capitalize;
+    }
+
+    #formulario table textarea
+    {
+        resize: none;
+        width: 97%;
+        height: 100px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    #formulario label
+    {
+        margin: 0;
+        padding: 0;
+    }
+    /**/
+}

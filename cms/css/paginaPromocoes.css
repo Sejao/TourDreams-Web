@@ -1,0 +1,76 @@
+.principalPromocoes{
+  width: 100%;
+  height: 829px;
+  background-color: ;
+}
+.tituloPromocoes{
+  width: 100%;
+  height: 50px;
+  background-color: ;
+  margin-top: 25px;
+  font-family: SourceSansRegular;
+  font-size: 33px;
+  text-align: center;
+}
+.conteudoPromocoes{
+  width: 90%;
+  height: 650px;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonSalvar{
+  width: 100%;
+  height: 100px;
+  background-color: ;
+}
+.tabela{
+  width: 100%;
+  height: 50px;
+  background-color: ;
+}
+.select{
+  width: 45%;
+  height: 280px;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img{
+  height: 280px;
+  margin-top: -20px
+
+}
+.td{
+  width: 200px;
+  background-color: ;
+  font-family: RalewayRegular;
+
+}
+.botao input{
+    height: 60px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid #4682b4;
+    border-radius: 8px;
+    color:#4682b4;
+    font-family: RalewayRegular;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    margin-left: 800px;
+    margin-top: 50px;
+
+}
+
+.botao input:hover{
+    background-color: #4682b4;
+    border: 2px solid #ccc;
+    color:#fff;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+}

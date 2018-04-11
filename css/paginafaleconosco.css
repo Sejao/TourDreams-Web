@@ -1,0 +1,198 @@
+.principalFaleconosco{
+  width: 100%;
+  height: 829px;
+  background-color: ;
+  font-size: 33px;
+  text-align: center;
+}
+.tituloFaleconosco{
+  width: 100%;
+  height: 50px;
+  background-color: ;
+  margin-top: 20px;
+  font-family: SourceSansRegular;
+  border-bottom: solid 1px #ccc;
+}
+.conteudoFaleconosco{
+  width: 95%;
+  height: 670px;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+}
+.part1{
+    width: 70%;
+    height: 100%;
+    background-color: ;
+    float: left;
+}
+.part2{
+  width: 29%;
+  height: 100%;
+  background-color: ;
+  float: left;
+  border-left:  solid 1px #ccc;
+
+}
+.botoes{
+  width: 85%;
+  height: 50%;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icones{
+  width: 100%;
+  height: 50%;
+  background-color: ;
+  border-top:    solid 1px #ccc;
+}
+.botoesSeparados{
+  width: 300px;
+  height: 95%;
+  float: left;
+  background-color: ;
+  margin-left: 10px;
+  margin-top: 5px;
+
+}
+.tituloBotao{
+  width: 100%;
+  height: 40px;
+  background-color: ;
+  font-size: 25px;
+  line-height: 50px;
+    font-family: RalewayRegular;
+}
+.img{
+  width: 73%;
+  height: 70%;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top:10px;
+  border-radius: 50%;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+
+}
+.input{
+  width: 100%;
+  height: 50px;
+  background-color: ;
+}
+
+/**/
+.iconesQuadrado{
+  width: 260px;
+  height: 95%;
+  background-color: ;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tituloIcones{
+  width: 100%;
+  height: 40px;
+  background-color: ;
+  font-family: RalewayRegular;
+  font-size: 25px;
+}
+.imgIcones{
+  width: 100%;
+  height: 230px;
+  background-color: ;
+  display: flex;
+  display:flex;
+}
+.inputIcones{
+  width: 100%;
+  height: 50px;
+  background-color: ;
+
+}
+
+.inputIcones input{
+  width: 250px;
+  margin-top: 20px;
+}
+.imgRedondo{
+  width: 90%;
+  height: 75%;
+  background-color:#4682b4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+
+}
+.imgRedondo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/**/
+.tituloBack{
+  width: 100%;
+  height: 60px;
+  background-color: ;
+  font-family: RalewayRegular;
+  font-size: 25px;
+  line-height: 60px;
+}
+.conteudoBack{
+  width: 100%;
+  height: 560px;
+  background-color: ;
+  display: flex;
+}
+.isoladorBack{
+  width: 90%;
+  height: 90%;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.isoladorBack img{
+  width: 100%;
+  height: 100%;
+}
+.inputBack{
+  width: 100%;
+  height: 50px;
+  background-color: ;
+}
+.botao input{
+    height: 60px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid #4682b4;
+    border-radius: 8px;
+    color:#4682b4;
+    font-family: RalewayRegular;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+
+    margin-top: 0px;
+
+}
+
+.botao input:hover{
+    background-color: #4682b4;
+    border: 2px solid #ccc;
+    color:#fff;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+}

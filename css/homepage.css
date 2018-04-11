@@ -1,0 +1,368 @@
+/*Mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    /*Conteúdo da página homepage.php*/
+    body{
+        background-color: #f9f9f9;
+    }
+    section
+    {
+        width: 100%;
+        height: 1320px;
+    }
+
+    hr
+    {
+        border: solid 1px #eee;
+        padding: 0;
+        clear: both;
+    }
+
+    #bgConteudo
+    {
+        display: none;
+    }
+
+    #conteudoSuperior
+    {
+        display: none;
+    }
+    /**/
+    /*Caixas de imagem das regiões*/
+    #conteudoInferior
+    {
+        width: 100%;
+        float: left;
+        padding-bottom: 25px;
+    }
+
+    .longBox
+    {
+        width: 900px;
+        height: 950px;
+        border: solid 2px #eee;
+        margin: 0 auto;
+        cursor: pointer;
+        overflow: hidden;
+        vertical-align: middle;
+        text-align: center;
+        box-shadow: 0px 7px 20px rgba(0,0,0,0.2);
+        background-color: ;
+        margin-top: 25px;
+    }
+
+    .longBox img
+    {
+        height: 100%;
+        width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .longBox:hover img
+    {
+     transform: scale(0.95);
+
+    }
+
+    .longBox:hover div
+    {
+
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    .longBox div
+    {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        line-height: 950px;
+        font-size: 40pt;
+        font-family: RobotoBold;
+        color: #fff;
+        height: 950px;
+        width: 900px;
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        z-index: 51;
+    }
+    /**/
+}
+/*Desktop 1920x1080*/
+@media only screen and (min-device-width : 481px)
+{
+    /*Conteúdo da página homepage.php*/
+    body{
+        background-color: #f9f9f9;
+    }
+    section
+    {
+        margin-left: 150px;
+        width: 84%;
+        height: 1320px;
+    }
+
+    hr
+    {
+        border: solid 1px #eee;
+        padding: 0;
+        clear: both;
+    }
+
+    #bgConteudo
+    {
+        width: 100%;
+        height: 690px;
+        float: left;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-left: 0;
+    }
+
+    #conteudoSuperior
+    {
+        width: 84%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    /**/
+    /*Nome do estado selecionado*/
+    #descricaoEstado
+    {
+        width: 475px;
+        height: 400px;
+        margin-top: 150px;
+        float: left;
+        overflow: hidden;
+        visibility: hidden;
+        user-select: none;
+
+    }
+
+    #nomeEstado
+    {
+        color: #fff;
+        font-size: 48pt;
+        font-family: RalewayRegular;
+        text-transform: uppercase;
+        font-weight: normal;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+    }
+    /**/
+    /*Caixa de imagens laterais*/
+    #containerBoxes
+    {
+        width: 300px;
+        height: 700px;
+        float: right;
+        margin-top: 15px;
+        margin-right: 75px;
+    }
+
+    .smallBox
+    {
+        width: 100%;
+        height: 300px;
+        float: left;
+        border: solid 0px #eee;
+        overflow: hidden;
+        position: relative;
+        vertical-align: middle;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .smallBox div
+    {
+        font-size: 26pt;
+        color: #fff;
+        z-index: 51;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    .smallBox img{
+        height: 100%;
+        width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .smallBox:hover img{
+
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .smallBox:hover div{
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        background-color: rgba(0,0,0,0.1);
+    }
+    /**/
+    /*Caixas de imagem das regiões*/
+    #conteudoInferior
+    {
+        margin-top: 5px;
+        width: 100%;
+        height: 500px;
+    }
+
+    .longBox
+    {
+        width: 300px;
+        height: 450px;
+        border: solid 2px #eee;
+        float: left;
+        margin-left: 0.5%;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        vertical-align: middle;
+        text-align: center;
+        box-shadow: 0px 7px 20px rgba(0,0,0,0.2);
+        background-color: #fff;
+    }
+
+    .longBox img
+    {
+        height: 100%;
+        width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .longBox:hover img
+    {
+     transform: scale(0.95);
+    }
+
+    .longBox:hover div
+    {
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    .longBox:not(:first-child)
+    {
+        margin-left: 1%;
+    }
+
+    .longBox div
+    {
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        line-height: 450px;
+        font-size: 26pt;
+        font-family: RobotoBold;
+        color: #fff;
+        height: 450px;
+        width: 300px;
+        background-color: rgba(0,0,0,0.4);
+        position: absolute;
+        z-index: 51;
+    }
+    /**/
+    /*SVG mapa do Brasil*/
+    svg
+    {
+        height: 640px;
+        width: 630px;
+    }
+
+    #regioesBrasil
+    {
+        width: 630px;
+        height: 640px;
+        float: left;
+        margin-left: 50px;
+        margin-top: 25px;
+        overflow: hidden;
+    }
+
+    #regioesBrasil img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .land
+    {
+      fill:#CCCCCC;
+      fill-opacity: 1;
+      stroke:white;
+      stroke-opacity: 1;
+      stroke-width:0.5;
+      cursor: pointer;
+    }
+
+    /* Cores Norte */
+    #BR-AC,#BR-AM,#BR-PA,#BR-RO,#BR-AP,#BR-RR,#BR-TO{
+
+      fill:#2b7230;
+    }
+
+    /* Nordeste Cores */
+
+    #BR-AL,#BR-BA,#BR-CE,#BR-MA,#BR-PB,#BR-PE,#BR-PI,#BR-SE,#BR-RN{
+      fill: #8e6e4a;
+    }
+
+    /* Centro-Oeste cores */
+
+    #BR-GO,#BR-MT,#BR-MS,#BR-DF{
+      fill:#7e2b84;
+    }
+
+    /* Sudeste cores */
+
+    #BR-SP,#BR-RJ, #BR-MG, #BR-ES{
+      fill:#992020;
+    }
+
+    /* Sul cores */
+
+    #BR-PR,#BR-SC,#BR-RS{
+      fill:#b5a536;
+    }
+
+    /*Norte hover*/
+
+    #BR-AC:hover,#BR-AM:hover,#BR-PA:hover,#BR-RO:hover,#BR-AP:hover,#BR-RR:hover,#BR-TO:hover{
+
+      fill:#37a83f;
+    }
+
+    /* Nordeste hover */
+    #BR-AL:hover,#BR-BA:hover,#BR-CE:hover,#BR-MA:hover,#BR-PB:hover,#BR-PE:hover,#BR-PI:hover,#BR-SE:hover,#BR-RN:hover{
+      fill: #bc9264;
+    }
+
+    /* Centro-oeste hover */
+
+    #BR-GO:hover,#BR-MT:hover,#BR-MS:hover,#BR-DF:hover{
+      fill:#b244ba;
+    }
+
+    /* Sudeste hover */
+
+    #BR-SP:hover,#BR-RJ:hover, #BR-MG:hover, #BR-ES:hover{
+      fill:#c92a2a;
+    }
+
+    /* Sul hover */
+
+    #BR-PR:hover,#BR-SC:hover,#BR-RS:hover{
+      fill:#e2cc2d;
+    }
+
+}

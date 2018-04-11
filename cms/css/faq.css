@@ -1,0 +1,169 @@
+section
+{
+    background-color: #fcfcf4;
+    height: 826px;
+}
+
+.selectgpp{
+    width: 85%;
+    height:100%;
+    overflow-y: auto;
+    float: left;
+}
+#titulogpp{
+    height: 80px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#titulogpp h1
+{
+    font-size: 33px;
+    color: #0e2568;
+    font-family: RalewayRegular;
+    font-weight: lighter;
+}
+
+#containerTable{
+    width: 800px;
+    max-height: 500px;
+    overflow: auto;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+}
+
+#containerTable table
+{
+    border-collapse: collapse;
+}
+
+#containerTable table th{
+    font-family: RalewayRegular;
+    font-size: 20px;
+}
+
+#containerTable table th:not(:last-of-type)
+{
+    border-right: 1px solid #ccc;
+}
+
+#containerTable table td:not(:last-of-type)
+{
+    border-right: 1px solid #ccc;
+}
+
+.thOpcoes
+{
+    width: 15%;
+    max-width: 15%;
+}
+
+.btnAlterar{
+    height: 40px;
+    width: 40px;
+    background-color: #031634;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    background-image: url(../imagens/verificacao1.png);
+  background-repeat: no-repeat;
+}
+
+.btnAlterar:hover{
+    background-color: #062f70;
+}
+
+
+.barraDeRolagem {
+border: none;
+padding: 5px;
+font: 24px/36px sans-serif;
+width: 100%;
+height: 100%;
+overflow: scroll;
+}
+
+
+.barraDeRolagem::-webkit-scrollbar {
+width: 5px;
+height: 12px;
+background-color:#fff;
+}
+
+.barraDeRolagem::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px #CDCDCD;
+border-radius: 10px;
+background-color:#fff;
+}
+
+.barraDeRolagem::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background-color:#fff;
+box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+
+.titulo22{
+      font-size: 25px;
+    font-style: normals;
+    text-align: center;
+    color:#4682B4
+
+}
+
+.tdnumeros{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.formulariozinho{
+  width: 800px;
+  margin: 0 auto;
+  border-top: solid 1px #ccc;
+  margin-top: 10px;
+}
+
+.formulariozinho th
+{
+    font-family: RalewayRegular;
+    font-size: 20px;
+    color: #666666;
+}
+
+
+.formulariozinho input[type='text']{
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 8px;
+}
+
+.formulariozinho input[type='submit']{
+    width: 90%;
+    border-radius: 5px;
+    font-family: Calibri Light;
+    font-size: 20px;
+    background-color: #0e2568;
+    border: 1px solid #ccc;
+    color: #fff;
+
+}
+
+.formulariozinho select
+{
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 8px;
+}

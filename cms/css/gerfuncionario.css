@@ -1,0 +1,221 @@
+section
+{
+    background-color: #fcfcf4;
+    height: 826px;
+}
+
+.sectionfuncionario{
+    width:85%;
+    height:100%;
+    overflow: auto;
+}
+#titulo{
+    text-align: center;
+    font-size: 33px;
+    font-family: Ebrima;
+    font-style: normal;
+    color:#0e2568;
+    margin-bottom: 100px;
+    margin-top: 30px;
+
+}
+.boxdetalhes{
+    width: 1550px;
+    overflow: auto;
+    height: 400px;
+    margin-left: 60px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+#buscaFuncionario{
+    height: 30px;
+    width: 500px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#buscaFuncionario input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    float: left;
+    font-family: Gisha;
+    font-size: 18px;
+    color: #000;
+}
+
+#btnBusca{
+    width: 9.6%;
+    height: 113%;
+
+    float: left;
+}
+
+#btnCadastrar{
+    height: 70px;
+    width: 280px;
+    background-color: #031634;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#btnCadastrar:hover{
+    background-color: #062f70;
+}
+
+#btnCadastrar h1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    font-family: RalewayRegular;
+    font-size: 25px;
+
+}
+
+.td_titulos{
+    width:335px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+     margin-left: 15px;
+    color: #0e2568;
+
+}
+
+
+.img img{
+    height: 80px;
+    width: 75px;
+     border-radius: 15px;
+     margin-left: 60px;
+
+}
+
+
+
+.tdcontas{
+    width: 335px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Levenim MT;
+    margin-left: 15px;
+    color: #000;
+    margin-bottom:50px;
+}
+
+.bgModalFuncionario{
+    width:100%;
+    height: 828px;
+
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.caixaFormulario{
+    height: 650px;
+    width: 900px;
+    background-color: #ffffff;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.headerModal{
+    width:100%;
+    height: 70px;
+    background-color: #4682b4;
+}
+
+.caixaFormulario h1{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    line-height: 70px;
+    font-family: Cordia New;
+    font-weight: lighter;
+    font-size: 60px;
+    color: #fff;
+    float: left;
+
+}
+
+.caixaFormulario h2{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    line-height: 70px;
+    font-family: Cordia New;
+    font-weight: lighter;
+    font-size: 60px;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+}
+
+.divFormulario{
+    width: 100%;
+}
+
+.frmCadastroFunionario table{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frmCadastroFunionario table label{
+    font-family: Gisha;
+    font-size: 15px;
+    color: #000;
+}
+
+.frmCadastroFunionario input[type='text'], input[type='email']{
+    height: 30px;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+.frmCadastroFunionario input{
+    margin-bottom: 20px;
+}
+
+.frmCadastroFunionario input[type='password']{
+    height: 30px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+.frmCadastroFunionario input[name="txtCPF"], input[name='txtRG']{
+    width: 200px;
+}
+
+.sltNivel{
+    width: 200px;
+    border: 1px solid #ccc;
+    height: 30px;
+    font-family: Helvetica;
+    font-size: 15px;
+    margin-bottom: 20px;
+}

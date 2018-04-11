@@ -1,0 +1,393 @@
+
+@media only screen and (min-device-width : 481px)
+{
+    /*Conteúdo da página de melhoresdestinos.php*/
+    body{
+        overflow-x: hidden;
+    }
+    #sectionUltimasReservas{
+        width: 100%;
+        height: 1340px;
+        display: flex;
+        overflow: hidden;
+    }
+
+    #sectionBaseadoPerfil{
+        width: 100%;
+        height: 650px;
+        overflow: hidden;
+    }
+
+    #contSuperior{
+        width: 84%;
+    }
+    #contInferior{
+        width: 84%;
+    }
+    /**/
+    /*Imagem banner superior*/
+    #divBanner{
+        width: 124%;
+        height: 640px;
+        margin-bottom: 20px;
+    }
+
+    #divBanner img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #divBanner h2{
+        text-align: center;
+        font-family: RalewayRegular;
+        color: #FFF;
+        font-size: 44pt;
+        font-weight: lighter;
+        margin-left: 350px;
+        position: absolute;
+        z-index: 95;
+    }
+    /**/
+    /*Sliders de conteúdo inferior*/
+    .divUltimas{
+        height: 500px;
+        margin-left: 250px;
+        width: 90%;
+
+        position: relative;
+
+    }
+
+    .divHotel{
+
+        height: 100%;
+        width: 430px;
+        background-color: #85f71b;
+        float: left;
+        position: relative;
+        margin-right: 30px;
+        -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        cursor: pointer;
+    }
+
+    .divDivisoria{
+        height: 100px;
+        width: 1500px;
+        margin-left: 250px;
+        margin-bottom: 20px;
+        font-family: Helvetica;
+        font-size: 35px;
+        line-height: 4;
+        color: #000;
+        font-weight: normal;
+    }
+
+    #segura{
+
+        width: inherit;
+        /*background-color: yellow;*/
+        height: 100%;
+        display: flex;
+    }
+
+
+
+
+    #segura2{
+        width: inherit;
+        /*background-color: yellow;*/
+        height: 100%;
+        display: flex;
+    }
+
+
+
+
+    #btn-prev, #btn-next{
+        height: 100px;
+        width: 70px;
+        background-color: rgba(0,0,0,0.7);
+        border:0;
+        position: absolute;
+        top: 123%;
+        line-height: 100px;
+        color: #fff;
+        font-size: 50px;
+        text-align: center;
+        cursor: pointer;
+        font-family: Calibri;
+        transform: translateY(-50%);
+
+        border-radius: 3px;
+        font-weight: lighter;
+        -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+    }
+
+    #btn-prev{
+        left: 170px;
+    }
+
+    #btn-next{
+        right: 193px;
+    }
+
+    #btn-ant, #btn-prox{
+        height: 100px;
+        width: 70px;
+        background-color: rgba(45,45,45,0.7);
+        position: absolute;
+        border:0;
+        top: 188.7%;
+        line-height: 100px;
+        color: #fff;
+        font-size: 50px;
+        text-align: center;
+        cursor: pointer;
+        font-family: Calibri;
+        transform: translateY(-50%);
+
+        border-radius: 3px;
+        font-weight: lighter;
+        -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+    }
+
+    #btn-ant{
+        left: 170px;
+    }
+
+    #btn-prox{
+        right: 193px;
+    }
+
+    .fotoHotel{
+        height: 300px;
+        width: 100%;
+        background-color: aquamarine;
+        -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+    }
+
+    .fotoHotel img{
+        height: 100%;
+        width: 100%;
+        -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+    }
+
+    .contHotel{
+        height: 200px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .tblInfoHotel{
+        width: 95%;
+        padding: 16px;
+        font-family: Microsoft JhengHei UI;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+
+    .tblInfoHotel img{
+        max-width: 20px;
+        max-height: 20px;
+        float: left;
+    }
+    /**/
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    /*Conteúdo da página de melhoresdestinos.php*/
+    body{
+
+    }
+    #sectionUltimasReservas{
+        width: 100%;
+        height: 1340px;
+        display: flex;
+        overflow: hidden;
+    }
+
+    #sectionBaseadoPerfil{
+        width: 100%;
+        height: 650px;
+        overflow: hidden;
+    }
+
+    #contSuperior{
+        width: 84%;
+    }
+    #contInferior{
+        width: 84%;
+    }
+    /**/
+    /*Imagem banner superior*/
+    #divBanner{
+        width: 124%;
+        height: 640px;
+        margin-bottom: 20px;
+    }
+
+    #divBanner img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #divBanner h2{
+        text-align: center;
+        font-family: RalewayRegular;
+        color: #FFF;
+        font-size: 44pt;
+        font-weight: lighter;
+        /*margin-left: 350px;*/
+        position: absolute;
+        z-index: 95;
+    }
+    /**/
+    /*Sliders de conteúdo inferior*/
+    .divUltimas{
+        height: 500px;
+        margin-left: 50px;
+        width: 100%;
+        position: relative;
+        overflow-x: scroll;
+    }
+
+    .divHotel{
+
+        height: 100%;
+        width: 430px;
+        background-color: #85f71b;
+        float: left;
+        margin-right: 30px;
+        -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+        cursor: pointer;
+    }
+
+    .divDivisoria{
+        height: 100px;
+        width: 1500px;
+        margin-left: 150px;
+        margin-bottom: 20px;
+        font-family: Helvetica;
+        font-size: 40px;
+        line-height: 4;
+        color: #000;
+        font-weight: normal;
+    }
+
+    #segura{
+        width: 340%;
+        height: 100%;
+        display: flex;
+
+    }
+
+    #segura section{
+        width: 100%;
+        float: left;
+    }
+
+    /*#segura img{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }*/
+
+    #segura2{
+        width: 340%;
+        height: 100%;
+        display: flex;
+    }
+
+    #segura2 section{
+        width: 100%;
+        float: left;
+    }
+
+    #segura2 img{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
+    #btn-prev, #btn-next{
+        display: none
+    }
+
+    #btn-prev{
+        left: 170px;
+    }
+
+    #btn-next{
+        right: 193px;
+    }
+
+    #btn-ant, #btn-prox{
+        display: none;
+    }
+
+    #btn-ant{
+        left: 170px;
+    }
+
+    #btn-prox{
+        right: 193px;
+    }
+
+    .fotoHotel{
+        height: 300px;
+        width: 100%;
+        background-color: aquamarine;
+    }
+
+    .fotoHotel img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .contHotel{
+        height: 200px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .tblInfoHotel{
+        width: 95%;
+        padding: 16px;
+        font-family: Microsoft JhengHei UI;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+
+    .tblInfoHotel img{
+        max-width: 20px;
+        max-height: 20px;
+        float: left;
+    }
+    /**/
+}

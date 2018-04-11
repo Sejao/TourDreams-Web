@@ -1,0 +1,179 @@
+#sectionConteudo{
+    width: 100%;
+    height: 920px;
+    display: flex;
+}
+
+#conteudo{
+    width: 84%;
+    margin-left: 8%;
+}
+
+#tituloPagina{
+    height: 100px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 100px;
+    font-family: RalewayRegular;
+    font-size: 30px;
+    color: #000;
+}
+
+#containerEsquerda{
+    width: 60%;
+    height: 800px;
+    float: left;
+    border-right: 1px solid #ccc;
+}
+
+#containerDireita{
+    width: 39.93%;
+    height: 800px;
+    float: left;
+}
+
+#tableEsquerda{
+
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableEsquerda label{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: SourceSansRegular;
+    font-family: 15px;
+    color: #000;
+}
+
+
+
+#tableEsquerda input[type="text"]{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-family: RalewayRegular;
+    font-size: 15px;
+}
+
+#tableEsquerda input[name="txtCheckin"]{
+    width: 80px;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: RalewayRegular;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#tableEsquerda input[name="txtCheckout"]{
+    width: 80px;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: RalewayRegular;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#tableEsquerda input[name="txtLogradouro"]{
+    width: 300px;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: RalewayRegular;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+#tableEsquerda input[name="txtNumero"]{
+    width: 80px;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: RalewayRegular;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+#tableEsquerda input[name="txtBairro"]{
+    width: 150px;
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-family: RalewayRegular;
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+
+
+#tableEsquerda select{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    font-family: RalewayRegular;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#tableEsquerda img{
+    height: 20px;
+    width: 20px;
+
+    margin-left: 10px;
+}
+
+#tableEsquerda textarea{
+    resize: none;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: RalewayRegular;
+    font-size: 16px;
+    color: #000;
+}
+
+#btnSalvar input[type="submit"]{
+    height: 70px;
+    width: 200px;
+    border: 1px solid #ccc;
+    background-color: #031634;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: RobotoMedium;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btnSalvar input[type="submit"]:hover{
+    background-color: #052a63;
+
+}
+
+
+
+
+
+#tableEsquerda input[type="file"]{
+    margin-bottom: 20px;
+}

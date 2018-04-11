@@ -1,0 +1,1233 @@
+@media only screen and (min-device-width : 481px)
+{
+
+    #divComodidades2{
+        display: none;
+    }
+    .container{
+        display: none;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #sectionCima{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+    }
+
+    #sectionBaixo{
+        width: 100%;
+
+        display: flex;
+
+    }
+
+    #contCima{
+        width: 84%;
+        margin-left: 8.5%;
+
+    }
+
+    #contBaixo{
+        width: 84%;
+        margin-left: 8.5%;
+    }
+
+    #divTitulos{
+        height: 60px;
+        width: 100%;
+
+    }
+
+    #divInformacoes{
+        width: 1612,8px;
+        height: 580px;
+
+    }
+
+    #divImgGrande{
+        height: 500px;
+        width: 1200px;
+
+    }
+
+    #divImgGrande img{
+        height: 100%;
+        width: 100%;
+    }
+
+    #divisao1{
+        height: 100%;
+        width: 1200px;
+
+        float: left;
+        overflow: hidden;
+
+    }
+
+    #carrossel{
+        height: 80px;
+        width: 200%;
+
+    }
+
+    #divisao2{
+        height: 100%;
+        width: 398px;
+        float: left;
+
+    }
+
+    .miniatura{
+        margin-top: 10px;
+        width: 100px;
+        height: 60px;
+        float: left;
+        margin-right: 10px;
+
+    }
+
+    .miniatura img{
+        width: 100%;
+        height: 100%;
+        border-radius: 2px;
+    }
+
+    #tblTitulo{
+        height: 100%;
+        width: 100%;
+        font-family: Cordiau;
+
+        line-height: 80px;
+        color: #000;
+    }
+
+    #tdnomeHotel{
+        text-align: left;
+        font-size: 40px;
+
+    }
+
+    #tdlocalHotel{
+    font-size: 25px;
+
+    }
+
+    #tdEstrelas{
+        text-align: right;
+    }
+
+    #tdEstrelas img{
+        user-select:none;
+        user-drag:none;
+        height: 25px;
+        width: 25px;
+    }
+
+    #tdAvaliacao{
+        font-size: 30px;
+        text-align: right;
+
+    }
+
+
+
+    #divComodidades{
+        height: 300px;
+        width: 100%;
+    }
+
+    .divQuarto{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+        box-shadow: 0px 0px 3px 0px #000;
+    }
+
+    .divInfoQuarto{
+        width: 1247px;
+        height: 100%;
+
+        float: left;
+        border-right: 1px solid #ccc;
+
+    }
+
+    .divReservar{
+        width: 350px;
+        height: 100%;
+        float: left;
+    }
+
+    .imgQuarto{
+        width: 290px;
+        height: 260px;
+        margin-top: 20px;
+        margin-left: 20px;
+        background-color: aqua;
+        float: left;
+    }
+
+    .imgQuarto img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #divHorarios{
+        width: 398px;
+        height: 70px;
+    }
+
+    #divInfoHotel{
+        width: 388px;
+        height: 430px;
+        margin-left: 10px;
+        word-wrap: break-word;
+        text-align: justify;
+        font-size: 15px;
+        font-family: SourceSansRegular;
+    }
+
+    #tableHorarios{
+        height: 100%;
+        width: 100%;
+    }
+
+    #tableHorarios img{
+        height: 32px;
+        width: 32px;
+        margin-left: 10px;
+        margin-top: -100px;
+        user-select:none;
+        user-drag:none;
+    }
+
+    #tableHorarios span{
+
+        font-size: 18px;
+        margin-left: 10px;
+        font-family: RalewayRegular;
+    }
+
+    .divTituloQuarto{
+        height: 50px;
+        width: 900px;
+
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .separador{
+        height: 240px;
+        margin-top: 30px;
+
+        float: left;
+        margin-left: 20px;
+
+    }
+
+    .separador ul{
+        float: left;
+
+    }
+
+    .separador ul li{
+
+
+        margin-bottom: 10px;
+        font-family: RalewayRegular;
+        font-weight: bold;
+        font-size: 25px;
+        color: #000;
+    }
+
+    .nomeQuarto{
+        height: 100%;
+
+        color: #000;
+        font-family: Cordiau;
+        font-size: 40px;
+        float: left;
+    }
+
+    .estrelaQuarto{
+        float: left;
+        width: 200px;
+        height: 100%;
+        margin-left: 10px;
+
+    }
+
+    .estrelaQuarto img{
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+
+    .textoQuarto{
+        height: 100px;
+        width: 840px;
+        float: left;
+        margin-left: 80px;
+        margin-top: 10px;
+        overflow: auto;
+        font-family: RalewayMedium;
+        font-size: 15px;
+
+    }
+
+
+    .comodidadesQuarto{
+
+        height: 90px;
+        width: 870px;
+        margin-left: 50px;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .comodidadesQuarto h1{
+        font-family: SourceSansRegular;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-weight: lighter;
+        color: #000;
+
+    }
+
+    .comodidadeDoQuarto{
+        height: 25px;
+        margin-right: 20px;
+
+        float: left;
+        margin-bottom: 5px;
+    }
+
+
+
+    .comodidadeDoQuarto ul {
+        -moz-column-count: 1;
+        -moz-column-gap: 10px;
+        -webkit-column-count:1;
+        -webkit-column-gap: 10px;
+        column-count: 1;
+        column-gap: 10px;
+    }
+
+    .divPreco{
+        width: 70%;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
+    .divPreco h1{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Euphemia;
+        font-size: 40px;
+        color: #1c8c34;
+
+    }
+
+    .divPreco h3{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Cordia New;
+        font-size: 25px;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .botaoReservar{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        width: 80%;
+        height: 80px;
+        background-color: #031634;
+        cursor: pointer;
+    }
+
+    .botaoReservar h1{
+        width: 100%;
+        height: 100%;
+        line-height: 30px;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 32px;
+        color: #fff;
+        font-weight: lighter;
+    }
+
+    .botaoReservar:hover{
+        background-color: #0b2e66;
+    }
+
+    #sectionAvaliacao
+    {
+        width: 100%;
+        display: flex;
+        padding-bottom: 25px;
+    }
+
+
+    #avaliacaoBox
+    {
+        margin: 0 auto;
+        width: 84%;
+        height: 500px;
+        margin-left: 8.5%;
+        float: left;
+        box-shadow: 0px 0px 3px 0px #000;
+    }
+
+    #avaliacaoBox #avaliacaoConteudoEsquerdo
+    {
+        width: 60%;
+        border: solid 1px #ccc;
+        float: left;
+        height: 100%;
+    }
+
+    #avaliacaoBox #avaliacaoConteudoEsquerdo h1
+    {
+        color: green;
+        font-size: 22pt;
+        font-family: RalewayRegular;
+        padding-left: 40px;
+    }
+
+    #avaliacaoBox #avaliacaoConteudoEsquerdo table
+    {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+        width: 90%;
+    }
+
+    #avaliacaoBox #avaliacaoConteudoEsquerdo table td span
+    {
+        font-size: 20px;
+        padding-left: 4px;
+    }
+
+    .barraAvaliacao
+    {
+        border: solid 1px #ccc;
+        width: 90%;
+        height: 30px;
+        float: left;
+    }
+
+    .progresso
+    {
+        height: 100%;
+    }
+
+    .avaliacao0
+    {
+        width: 0%;
+    }
+
+    .avaliacao10
+    {
+        width: 10%;
+    }
+
+    .avaliacao20
+    {
+        width: 20%;
+    }
+
+    .avaliacao30
+    {
+        width: 30%;
+    }
+
+    .avaliacao40
+    {
+        width: 40%;
+    }
+
+
+    .avaliacao50
+    {
+        width: 50%;
+    }
+
+    .avaliacao60
+    {
+        width: 60%;
+    }
+
+
+    .avaliacao70
+    {
+        width: 70%;
+    }
+
+    .avaliacao80
+    {
+        width: 80%;
+    }
+
+
+    .avaliacao90
+    {
+        width: 90%;
+    }
+
+    .avaliacao100
+    {
+        width: 100%;
+    }
+
+    .avaliacaoAtendimento
+    {
+        background-color: rgb(57, 106, 177);
+    }
+
+    .avaliacaoConforto
+    {
+        background-color: rgb(218, 124, 48);
+    }
+
+    .avaliacaoLazer
+    {
+        background-color: rgb(62, 150, 81);
+    }
+
+    .avaliacaoLimpeza
+    {
+        background-color: rgb(204, 37, 41);
+    }
+
+    .avaliacaoLocalizacao
+    {
+        background-color: rgb(107, 76, 154);
+    }
+
+    .avaliacaoPreco
+    {
+        background-color: rgb(242,218,87);
+    }
+
+    #avaliacaoConteudoDireito
+    {
+        width: 39.75%;
+        height: 100%;
+        float: left;
+    }
+
+    #avaliacaoConteudoDireito table
+    {
+        width: 300px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        margin-top: 75px;
+    }
+
+    #avaliacaoConteudoDireito h2
+    {
+        font-family: RalewayRegular;
+        font-size: 22pt;
+        color: #666666;
+    }
+
+    #avaliacaoConteudoDireito table th
+    {
+        font-weight: normal;
+        text-align: left;
+        width: 25%;
+        max-width: 25%;
+        font-family: RalewayRegular;
+        font-size: 20px;
+    }
+
+    #avaliacaoConteudoDireito input[type="number"]
+    {
+        float: right;
+        font-size: 18px;
+        font-family: Calibri;
+    }
+
+    #avaliacaoConteudoDireito input[type="submit"]
+    {
+        background-color: #4682B4;
+        width: 100%;
+        border: solid 1px #4682B4;
+        font-family: RalewayRegular;
+        font-size: 22pt;
+        color: #fff;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+    #avaliacaoConteudoDireito input[type="submit"]:hover
+    {
+        background-color: #fff;
+        color: #4682b4;
+    }
+
+    #avaliacaoConteudoDireito h1
+    {
+        color: #666666;
+        font-family: RalewayRegular;
+    }
+
+    #msgAvaliacao
+    {
+        text-align: center;
+    }
+
+    #msgAvaliacao h1
+    {
+        font-size: 18pt;
+    }
+
+    #smiley
+    {
+        color: #666666;
+        font-size: 150pt;
+
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    
+
+    body{
+        overflow-x: hidden;
+
+    }
+
+
+
+    #sectionCima{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+    }
+
+    #sectionBaixo{
+        width: 100%;
+
+        display: flex;
+
+    }
+
+    #contCima{
+        width: 100%;
+
+
+    }
+
+    #contBaixo{
+        width: 100%;
+
+    }
+
+    #divTitulos{
+        height: 60px;
+        width: 90%;
+
+    }
+
+    #divInformacoes{
+        display:none;
+        width: 1612,8px;
+        height: 580px;
+
+    }
+
+    #divImgGrande{
+        height: 500px;
+        width: 1200px;
+
+    }
+
+    #divImgGrande img{
+        height: 100%;
+        width: 100%;
+    }
+
+    #divisao1{
+        height: 100%;
+        width: 1200px;
+
+        float: left;
+        overflow: hidden;
+
+    }
+
+    #carrossel{
+        height: 80px;
+        width: 200%;
+
+    }
+
+    #divisao2{
+        height: 100%;
+        width: 398px;
+        float: left;
+
+    }
+
+    .miniatura{
+        margin-top: 10px;
+        width: 100px;
+        height: 60px;
+        float: left;
+        margin-right: 10px;
+
+    }
+
+    .miniatura img{
+        width: 100%;
+        height: 100%;
+        border-radius: 2px;
+    }
+
+    #tblTitulo{
+        height: 100%;
+        width: 100%;
+        font-family: Cordiau;
+
+        line-height: 80px;
+        color: #000;
+    }
+
+    #tdnomeHotel{
+        text-align: left;
+        font-size: 40px;
+
+    }
+
+    #tdlocalHotel{
+    font-size: 25px;
+
+    }
+
+    #tdEstrelas{
+        text-align: right;
+    }
+
+    #tdEstrelas img{
+        user-select:none;
+        user-drag:none;
+        height: 25px;
+        width: 25px;
+    }
+
+    #tdAvaliacao{
+        font-size: 30px;
+        text-align: right;
+
+    }
+
+
+
+    #divComodidades2{
+        height: 300px;
+        width: 100%;
+        margin-top: 20px;
+        border-bottom: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+
+    }
+
+    .divQuarto:first-of-type{
+        margin-top: 110px;
+    }
+
+    .divQuarto{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+
+        margin-bottom: 40px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 3px 0px #000;
+    }
+
+    .divInfoQuarto{
+        width: 100%;
+        border-bottom: 1px #ccc solid;
+
+
+
+    }
+
+    .divReservar{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .imgQuarto{
+        width: 100%;
+        height: 600px;
+
+
+        background-color: aqua;
+
+    }
+
+    .imgQuarto img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #divHorarios{
+        width: 398px;
+        height: 70px;
+    }
+
+    #divInfoHotel{
+        width: 388px;
+        height: 430px;
+        margin-left: 10px;
+        word-wrap: break-word;
+        text-align: justify;
+        font-size: 15px;
+        font-family: SourceSansRegular;
+    }
+
+    #tableHorarios{
+        height: 100%;
+        width: 100%;
+    }
+
+    #tableHorarios img{
+        height: 32px;
+        width: 32px;
+        margin-left: 10px;
+        margin-top: -100px;
+        user-select:none;
+        user-drag:none;
+    }
+
+    #tableHorarios span{
+
+        font-size: 18px;
+        margin-left: 10px;
+        font-family: RalewayRegular;
+    }
+
+    .divTituloQuarto{
+
+        width: 100%;
+
+
+        margin-top: 20px;
+    }
+
+    .separador{
+        height: 240px;
+        margin-top: 30px;
+
+        float: left;
+        margin-left: 100px;
+
+    }
+
+    .separador ul{
+        float: left;
+
+    }
+
+    .separador ul li{
+
+
+        margin-bottom: 10px;
+        font-family: RalewayRegular;
+        font-weight: bold;
+        font-size: 25px;
+        color: #000;
+    }
+
+    .nomeQuarto{
+        height: 100%;
+        margin-left: 20px;
+        color: #000;
+        font-family: Cordiau;
+        font-size: 60px;
+
+    }
+
+    .estrelaQuarto{
+        float: left;
+        width: 200px;
+        height: 100%;
+        margin-left: 10px;
+
+    }
+
+    .estrelaQuarto img{
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+
+    .textoQuarto{
+
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-top: 10px;
+        overflow: auto;
+        font-family: RalewayMedium;
+        font-size: 25px;
+
+    }
+
+
+    .comodidadesQuarto{
+
+        height: 120px;
+        width: 87%;
+        margin-left: 50px;
+
+
+    }
+
+    .comodidadesQuarto h1{
+        font-family: SourceSansRegular;
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        font-weight: lighter;
+        color: #000;
+
+    }
+
+    .comodidadeDoQuarto{
+        height: 25px;
+        margin-right: 20px;
+
+        float: left;
+        margin-bottom: 5px;
+    }
+
+
+
+    .comodidadeDoQuarto ul {
+        -moz-column-count: 1;
+        -moz-column-gap: 10px;
+        -webkit-column-count:1;
+        -webkit-column-gap: 10px;
+        column-count: 1;
+        column-gap: 10px;
+        font-size: 20px;
+    }
+
+    .divPreco{
+        width: 100%;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .divPreco h1{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        font-family: Euphemia;
+        font-size: 60px;
+        color: #1c8c34;
+
+    }
+
+    .divPreco h3{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Cordia New;
+        font-size: 35px;
+        color: #000;
+        font-weight: lighter;
+    }
+
+    .botaoReservar{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+
+        width: 100%;
+        height: 130px;
+        background-color: #031634;
+        cursor: pointer;
+    }
+
+    .botaoReservar h1{
+        width: 100%;
+        height: 100%;
+        line-height: 130px;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 50pt;
+        color: #fff;
+        font-weight: lighter;
+    }
+
+    .botaoReservar:hover{
+        background-color: #0b2e66;
+    }
+
+    #sectionAvaliacao
+    {
+        width: 100%;
+        display: flex;
+        padding-bottom: 25px;
+    }
+
+
+    #avaliacaoBox
+    {
+        margin: 0 auto;
+        width: 84%;
+
+        margin-left: 8.5%;
+
+        box-shadow: 0px 0px 3px 0px #000;
+    }
+
+    #avaliacaoBox #avaliacaoConteudoEsquerdo
+    {
+        width: 100%;
+
+
+    }
+
+    #avaliacaoBox #avaliacaoConteudoEsquerdo h1
+    {
+        color: green;
+        font-size: 40pt;
+        font-family: RalewayRegular;
+        padding-left: 40px;
+    }
+
+    #avaliacaoBox #avaliacaoConteudoEsquerdo table
+    {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25pt;
+        padding-left: 40px;
+        width: 90%;
+    }
+
+    #avaliacaoBox #avaliacaoConteudoEsquerdo table td span
+    {
+        font-size: 20pt;
+        padding-left: 4px;
+    }
+
+    .barraAvaliacao
+    {
+        border: solid 1px #afafaf;
+        width: 90%;
+        height: 50px;
+        float: left;
+    }
+
+    .progresso
+    {
+        height: 100%;
+    }
+
+    .avaliacao0
+    {
+        width: 0%;
+    }
+
+    .avaliacao10
+    {
+        width: 10%;
+    }
+
+    .avaliacao20
+    {
+        width: 20%;
+    }
+
+    .avaliacao30
+    {
+        width: 30%;
+    }
+
+    .avaliacao40
+    {
+        width: 40%;
+    }
+
+
+    .avaliacao50
+    {
+        width: 50%;
+    }
+
+    .avaliacao60
+    {
+        width: 60%;
+    }
+
+
+    .avaliacao70
+    {
+        width: 70%;
+    }
+
+    .avaliacao80
+    {
+        width: 80%;
+    }
+
+
+    .avaliacao90
+    {
+        width: 90%;
+    }
+
+    .avaliacao100
+    {
+        width: 100%;
+    }
+
+    .avaliacaoAtendimento
+    {
+        background-color: rgb(57, 106, 177);
+    }
+
+    .avaliacaoConforto
+    {
+        background-color: rgb(218, 124, 48);
+    }
+
+    .avaliacaoLazer
+    {
+        background-color: rgb(62, 150, 81);
+    }
+
+    .avaliacaoLimpeza
+    {
+        background-color: rgb(204, 37, 41);
+    }
+
+    .avaliacaoLocalizacao
+    {
+        background-color: rgb(107, 76, 154);
+    }
+
+    .avaliacaoPreco
+    {
+        background-color: rgb(242,218,87);
+    }
+
+    #avaliacaoConteudoDireito
+    {
+        width: 100%;
+
+
+    }
+
+    #avaliacaoConteudoDireito table
+    {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        margin-top: 75px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #avaliacaoConteudoDireito h2
+    {
+        font-family: RalewayRegular;
+        font-size: 22pt;
+        color: #666666;
+    }
+
+    #avaliacaoConteudoDireito table th
+    {
+        font-weight: normal;
+        text-align: left;
+        width: 25%;
+        max-width: 25%;
+        font-family: RalewayRegular;
+        font-size: 20px;
+    }
+
+    #avaliacaoConteudoDireito input[type="number"]
+    {
+        float: right;
+        font-size: 18px;
+        font-family: Calibri;
+    }
+
+    #avaliacaoConteudoDireito input[type="submit"]
+    {
+        background-color: #4682B4;
+        width: 100%;
+        border: solid 1px #4682B4;
+        font-family: RalewayRegular;
+        font-size: 50pt;
+        color: #fff;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        cursor: pointer;
+        border-radius: 2px;
+        height: 100px;
+    }
+
+    #avaliacaoConteudoDireito input[type="submit"]:hover
+    {
+        background-color: #fff;
+        color: #4682b4;
+    }
+
+    #avaliacaoConteudoDireito h1
+    {
+
+        color: #666666;
+        font-family: RalewayRegular;
+    }
+
+    #msgAvaliacao
+    {
+        text-align: center;
+    }
+
+    #msgAvaliacao h1
+    {
+        font-size: 18pt;
+    }
+
+    #smiley
+    {
+        color: #666666;
+        font-size: 150pt;
+
+        margin: 0 auto;
+    }
+}

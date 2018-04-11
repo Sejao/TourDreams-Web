@@ -1,0 +1,82 @@
+section{
+    height: 826px;
+    background-color: #fcfcf4;
+}
+
+.sectionNivel{
+    height: 100%;
+    width: 85%;
+    overflow: auto;
+}
+
+.tituloPagina{
+    height: 80px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.tituloPagina h1{
+    font-size: 33px;
+    color: #0e2568;
+    font-family: RalewayRegular;
+    font-weight: lighter;
+}
+
+.divTabela{
+    max-height: 500px;
+    width: 800px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.6);
+}
+
+.divTabela table{
+    width: 100%;
+    text-align: center;
+
+}
+
+.divTabela table th{
+    font-family: RalewayRegular;
+    font-size: 20px;
+}
+
+.divTabela table td{
+    font-family: Calibri Light;
+    font-size: 18px;
+}
+
+.formNivel{
+    width: 800px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #ccc;
+}
+
+.formNivel table{
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formNivel table input[type='text']{
+    height: 25px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formNivel table input[type='submit']{
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    font-family: Calibri Light;
+    font-size: 18px;
+    background-color: #0e2568;
+    border: 1px solid #ccc;
+    color: #fff;
+}

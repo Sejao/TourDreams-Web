@@ -1,0 +1,39 @@
+body
+{
+    overflow: hidden;
+}
+
+section
+{
+    height: 830px;
+}
+
+#conteudo
+{
+    background-image: url('../imagens/homecms/bg.jpg');
+}
+
+#conteudoInterno
+{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#titulo
+{
+    font-family: RalewayRegular;
+    font-size: 60pt;
+    color: #fff;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+
+#descricao
+{
+    font-size: 36pt;
+    color: #fff;
+    font-family: RalewayRegular;
+    margin-top: 250px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}

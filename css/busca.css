@@ -1,0 +1,494 @@
+/*Mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    /* Conteúdo da página busca.php */
+    section
+    {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+    /* Caixa de filtros */
+    #filtrosBox
+    {
+        display: none;
+    }
+    /**/
+    /*Caixa de resultados*/
+    #resultadosBox
+    {
+        clear: both;
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 25px;
+        overflow-y: hidden;
+    }
+
+    .infoBuscaBox
+    {
+        width: 100%;
+        height: 40px;
+        line-height: 2.5;
+        float: left;
+    }
+
+    .qtdResultados
+    {
+        float: left;
+        padding-right: 16px;
+    }
+
+    .paginacao
+    {
+        display: none;
+    }
+
+    .ordenacao
+    {
+        float: left;
+        padding-left: 16px;
+        height: 100%;
+    }
+    .ordenacao select
+    {
+        height: 100%;
+    }
+
+    .resultado
+    {
+        width: 95%;
+        height: 200px;
+        border: solid 1px #ccc;
+        float: left;
+        margin-top: 25px;
+        padding-bottom: 8px;
+    }
+
+    .resultado .resultadoImg
+    {
+        width: 100px;
+        height: 100px;
+        float:left;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .resultado .resultadoImg .hotelImg
+    {
+        width: 100%;
+        height: 100%;
+        padding: 4px;
+        position: absolute;
+    }
+
+    .resultado .resultadoInfo
+    {
+        width: auto;
+        float: left;
+        overflow: hidden;
+    }
+
+    .resultadoInfo table
+    {
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    .resultadoInfo table img
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    .resultadoInfo h3
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .resultado .resultadoReservar
+    {
+        width: 100%;
+        height: 200px;
+        float: left;
+    }
+
+    .resultadoReservar table
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .resultadoReservar h2
+    {
+        margin: 0;
+        padding: 0;
+        color: green;
+    }
+
+    .resultadoReservar .desconto
+    {
+        color: red;
+        text-decoration: line-through;
+    }
+
+    .resultadoReservar h3
+    {
+        display: none;
+    }
+
+    .resultadoReservar h5
+    {
+        display: none;
+    }
+
+    .btnReservar
+    {
+        width: 80%;
+        height: 50px;
+        background-color: #428500;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 18pt;
+        line-height: 2;
+        text-align: center;
+        font-family: RalewayRegular;
+    }
+
+    .btnReservar:hover
+    {
+        background-color: #316300;
+    }
+
+    .parceiroDestaque
+    {
+        width: 200px; height: 200px;
+        position: absolute;
+    }
+    /**/
+    /*Faixa de destaque */
+    .ribbon {
+      position: absolute;
+      left: -5px; top: -5px;
+      z-index: 1;
+      overflow: hidden;
+      width: 75px; height: 75px;
+      text-align: right;
+    }
+    .ribbon span {
+      font-size: 10px;
+      font-weight: bold;
+      color: #FFF;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 20px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      width: 100px;
+      display: block;
+      background: #79A70A;
+      background: linear-gradient(#F70505 0%, #8F0808 100%);
+      box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 19px; left: -21px;
+    }
+    .ribbon span::before {
+      content: "";
+      position: absolute; left: 0px; top: 100%;
+      z-index: -1;
+      border-left: 3px solid #8F0808;
+      border-right: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+      border-top: 3px solid #8F0808;
+    }
+    .ribbon span::after {
+      content: "";
+      position: absolute; right: 0px; top: 100%;
+      z-index: -1;
+      border-left: 3px solid transparent;
+      border-right: 3px solid #8F0808;
+      border-bottom: 3px solid transparent;
+      border-top: 3px solid #8F0808;
+    }
+    /**/
+}
+/*Desktop 1920x1080*/
+@media only screen and (min-device-width : 481px)
+{
+    /* Conteúdo da página busca.php */
+    section
+    {
+        display: flex;
+        width: 84%;
+        margin: 0 auto;
+    }
+    /* Caixa de filtros */
+    #filtrosBox
+    {
+        width: 25%;
+        height: 680px;
+        margin-top: 25px;
+        float: left;
+    }
+
+    #filtrosBox #filtrosBoxTitulo
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 40px;
+        background-color: #4682B4;
+        color: #fff;
+        line-height: 2;
+    }
+
+    #filtrosBox #filtrosBoxTitulo span
+    {
+        padding-left: 16px;
+    }
+
+    #filtrosBox input[type="submit"]
+    {
+        background-color: #4682B4;
+        width: 100%;
+        color: #fff;
+        border: none;
+        height: 50px;
+        font-size: 18pt;
+        font-family: RalewayRegular;
+        cursor: pointer;
+    }
+    #filtrosBox input[type="submit"]:hover
+    {
+        background-color: #12548A;
+    }
+
+    #filtros
+    {
+        width: 100%;
+    }
+    /**/
+    /*Caixa de resultados*/
+    #resultadosBox
+    {
+        clear: both;
+        width: 70%;
+        margin-left: 5%;
+        margin-top: 25px;
+        overflow-y: hidden;
+    }
+
+    .infoBuscaBox
+    {
+        width: 100%;
+        height: 40px;
+        line-height: 2.5;
+        float: left;
+    }
+
+    .qtdResultados
+    {
+        float: left;
+        padding-right: 16px;
+    }
+
+    .paginacao
+    {
+        float: left;
+    }
+
+    .paginacao a
+    {
+        float: left;
+        height: 100%;
+        padding: 0px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+    }
+
+    .paginacao a.active {
+        background-color: #4682B4;
+        color: white;
+        border: 1px solid #DDD;
+    }
+
+    .paginacao a:hover:not(.active)
+    {
+        background-color: #ddd;
+    }
+
+    .ordenacao
+    {
+        float: left;
+        padding-left: 16px;
+        height: 100%;
+    }
+    .ordenacao select
+    {
+        height: 100%;
+    }
+
+    .resultado
+    {
+        width: 1105px;
+        height: 200px;
+        border: solid 1px #ccc;
+        float: left;
+        margin-top: 25px;
+    }
+
+    .resultado .resultadoImg
+    {
+        width: 200px;
+        height: 200px;
+        float:left;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .resultado .resultadoImg .hotelImg
+    {
+        width: 192px;
+        height: 192px;
+        padding: 4px;
+        position: absolute;
+    }
+
+    .resultado .resultadoInfo
+    {
+        width: 700px;
+        height: 200px;
+        float: left;
+        border-right: solid 1px #ccc;
+        overflow: hidden;
+    }
+
+    .resultadoInfo table
+    {
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    .resultadoInfo table img
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    .resultadoInfo h3
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .resultado .resultadoReservar
+    {
+        width: 204px;
+        height: 200px;
+        float: left;
+    }
+
+    .resultadoReservar table
+    {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .resultadoReservar h2
+    {
+        margin: 0;
+        padding: 0;
+        color: green;
+    }
+
+    .resultadoReservar .desconto
+    {
+        color: red;
+        text-decoration: line-through;
+    }
+
+    .resultadoReservar h3
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 16pt;
+    }
+
+    .resultadoReservar h5
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .btnReservar
+    {
+        width: 80%;
+        height: 50px;
+        background-color: #428500;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 18pt;
+        line-height: 2;
+        text-align: center;
+        font-family: RalewayRegular;
+    }
+
+    .btnReservar:hover
+    {
+        background-color: #316300;
+    }
+
+    .parceiroDestaque
+    {
+        width: 200px; height: 200px;
+        position: absolute;
+    }
+    /**/
+    /*Faixa de destaque */
+    .ribbon {
+      position: absolute;
+      left: -5px; top: -5px;
+      z-index: 1;
+      overflow: hidden;
+      width: 75px; height: 75px;
+      text-align: right;
+    }
+    .ribbon span {
+      font-size: 10px;
+      font-weight: bold;
+      color: #FFF;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 20px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      width: 100px;
+      display: block;
+      background: #79A70A;
+      background: linear-gradient(#F70505 0%, #8F0808 100%);
+      box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+      position: absolute;
+      top: 19px; left: -21px;
+    }
+    .ribbon span::before {
+      content: "";
+      position: absolute; left: 0px; top: 100%;
+      z-index: -1;
+      border-left: 3px solid #8F0808;
+      border-right: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+      border-top: 3px solid #8F0808;
+    }
+    .ribbon span::after {
+      content: "";
+      position: absolute; right: 0px; top: 100%;
+      z-index: -1;
+      border-left: 3px solid transparent;
+      border-right: 3px solid #8F0808;
+      border-bottom: 3px solid transparent;
+      border-top: 3px solid #8F0808;
+    }
+    /**/
+}

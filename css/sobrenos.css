@@ -1,0 +1,387 @@
+/*Mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    /*Conteúdo da página sobrenos.php*/
+    section
+    {
+        width: 95%;
+        padding: 16px;
+
+        height: 6100px;
+        text-align: justify;
+    }
+
+    h3
+    {
+        font-size: 40pt;
+        text-align: center;
+    }
+
+    h2
+    {
+        font-size: 40pt;
+        text-align: left;
+        font-family: RalewayRegular;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    hr
+    {
+        clear: both;
+    }
+    p{
+      font-size: 35px;
+    }
+
+    #conteudoSuperior
+    {
+        width: 100%;
+        float: left;
+    }
+
+    #conteudoMeio
+    {
+        width: 100%;
+        float: left;
+        background-color: ;
+    }
+
+    #conteudoInferior
+    {
+        width: 100%;
+        float: left;
+    }
+    /**/
+    /*Conteúdo do bloco de texto superior*/
+    #descricao
+    {
+
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+
+    #descricao p
+    {
+        padding: 16px;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-top: 0px;
+        text-align: justify;
+        /*text-indent: 40px;*/
+    }
+    /**/
+    /*Conteúdo do histórico da empresa*/
+    #historicoBox
+    {
+        width: 100%;
+        margin-top: 10px;
+        float: left;
+    }
+
+    #historicoBox h3
+    {
+        font-size: 40pt;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        color: #4682b4;
+    }
+
+    .historico
+    {
+        width: 100%;
+        height: 33%;
+        border-top: solid 1px #4682b4;
+        border-bottom: solid 1px #4682b4;
+    }
+
+    .historico:nth-child(2)
+    {
+        border: none;
+    }
+
+    .historico p
+    {
+        text-indent: 40px;
+    }
+    /**/
+    /*Imagem inferior direita*/
+    #imagemTourDreams
+    {
+        max-width: 440px;
+        max-height: 522px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        overflow: hidden;
+		display: none;
+    }
+
+    #imagemTourDreams img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+    /*Conteúdo valores, missão, visão*/
+    #missoes
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    .missaoBox
+    {
+        width:100%;
+        min-height: 1200px;
+		height: auto;
+        margin-top: 25px;
+        -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+        background-color: #031634;
+        color: #fff;
+        padding: 8px;
+		overflow: auto;
+
+    }
+
+    .missaoBox h3
+    {
+        padding: 0;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .missaoBox .img
+    {
+        width: 100%;
+        height: 400px;
+        padding-bottom: 0;
+        margin: auto;
+    }
+
+    .missaoBox img
+    {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+
+    .missaoBox p
+    {
+        float: left;
+        text-indent: 40px;
+        text-align: justify;
+        padding-left: 16px;
+		padding-right: 16px;
+        padding-bottom: 16px;
+        font-family: Calibri;
+        margin-bottom: 0;
+    }
+    #conteudoInferior
+    {
+        width: 100%;
+        height:550px;
+
+    }
+    #historicoBox h3
+    {
+
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        color: #4682b4;
+    }
+    /**/
+}
+
+/*Desktop 1920x1080*/
+@media only screen and (min-device-width : 481px)
+{
+    /*Conteúdo da página sobrenos.php*/
+    section
+    {
+        width: 84%;
+        margin-left: 150px;
+        height: 1300px;
+        float: left;
+        text-align: justify;
+    }
+
+    h3
+    {
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    h2
+    {
+        font-size: 22pt;
+        text-align: left;
+        font-family: RalewayRegular;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    hr
+    {
+        clear: both;
+    }
+
+    #conteudoSuperior
+    {
+        width: 100%;
+        height: 175px;
+    }
+
+    #conteudoMeio
+    {
+        height: 500px;
+        width: 100%;
+        margin: auto;
+    }
+
+    #conteudoInferior
+    {
+        width: 100%;
+        height:550px;
+    }
+    /**/
+    /*Conteúdo do bloco de texto superior*/
+    #descricao
+    {
+
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+
+    #descricao p
+    {
+        padding: 16px;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-top: 0px;
+        text-align: justify;
+        /*text-indent: 40px;*/
+    }
+    /**/
+    /*Conteúdo do histórico da empresa*/
+    #historicoBox
+    {
+        width: 70%;
+        height: 95%;
+        margin-top: 10px;
+        float: left;
+    }
+
+    #historicoBox h3
+    {
+        font-size: 16pt;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        color: #4682b4;
+    }
+
+    .historico
+    {
+        width: 100%;
+        height: 33%;
+        border-top: solid 1px #4682b4;
+        border-bottom: solid 1px #4682b4;
+    }
+
+    .historico:nth-child(2)
+    {
+        border: none;
+    }
+
+    .historico p
+    {
+        text-indent: 40px;
+    }
+    /**/
+    /*Imagem inferior direita*/
+    #imagemTourDreams
+    {
+        width: 27.5%;
+        height: 95%;
+        float: right;
+        margin-top: 10px;
+        margin-left: 10px;
+        overflow: hidden;
+    }
+
+    #imagemTourDreams img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+    /*Conteúdo valores, missão, visão*/
+    #missoes
+    {
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .missaoBox
+    {
+        width: 400px;
+        height: 100%;
+        float: left;
+        margin-left: 100px;
+        -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+        background-color: #031634;
+        color: #fff;
+    }
+
+    .missaoBox h3
+    {
+        padding: 0;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .missaoBox .img
+    {
+        width: 100%;
+        height: 200px;
+        padding-bottom: 0;
+        margin: auto;
+    }
+
+    .missaoBox img
+    {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+
+    .missaoBox p
+    {
+        padding: 16px;
+        float: left;
+        text-indent: 40px;
+        text-align: justify;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-family: Calibri;
+        margin-bottom: 0;
+    }
+    /**/
+}

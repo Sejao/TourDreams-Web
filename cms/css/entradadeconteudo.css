@@ -1,0 +1,90 @@
+section
+{
+    background-color: #fcfcf4;
+    height: 826px;
+}
+
+#selectg{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+#titulog{
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    margin-bottom: 50px;
+    color:#4682B4;
+
+}
+
+.tablle{
+    width: 1500px;
+    margin-left:120px;
+     -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    margin-bottom: 90px;
+    margin-top: 100px;
+    overflow: auto;
+}
+
+.barraDeRolagem {
+border: none;
+padding: 5px;
+font: 24px/36px sans-serif;
+width: 100%;
+height: 100%;
+overflow: scroll;
+}
+
+
+.barraDeRolagem::-webkit-scrollbar {
+width: 5px;
+height: 12px;
+background-color:#fff;
+}
+
+.barraDeRolagem::-webkit-scrollbar-track {
+box-shadow: inset 0 0 10px #CDCDCD;
+border-radius: 10px;
+background-color:#fff;
+}
+
+.barraDeRolagem::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background-color:#fff;
+box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+
+.titulos{
+      font-size: 25px;
+    font-style: normals;
+    text-align: center;
+    color:#4682B4
+
+}
+
+.tdnumero2{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color:dimgray;
+
+
+
+}
+/*.formulariozinho{
+  width: 1500px;
+  height: 50px;
+  margin-left:120px;
+   -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+  margin-bottom: 90px;
+  margin-top: 100px;
+}
+*/

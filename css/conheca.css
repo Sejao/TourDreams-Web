@@ -1,0 +1,479 @@
+/*Mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    @font-face {
+      font-family: Raleway;
+        src: url("../fonts/Raleway-Medium.ttf");
+      }
+
+
+    #section{
+        display: flex;
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        padding-bottom: 25px;
+    }
+    .principal{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .isolamentoPartedeCima{
+        width: 100%;
+
+        /*background-image: url();*/
+    }
+    .isolamentoPartedeCima img{
+        display: none;
+    }
+    .absolute{
+      width: 100%;
+      position: relative;
+    }
+    .titulo{
+        width: 100%;
+    }
+
+    .um{
+        width: 630px;
+        height: 40%;
+        float: left;
+        margin-left: 20px;
+        border-bottom: solid 0px #696969;
+    }
+
+    .tituloum{
+        width: 100%;
+        font-size: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 40px;
+        text-align: center;
+        font-family: Raleway;
+    }
+
+    .dois{
+        width: 630px;
+        height: 40%;
+        float: left;
+        border-bottom: solid 0px #696969 ;
+    }
+
+    .barradepesquisa{
+        width: 100%;
+    }
+
+    .barra{
+        height: 40px;
+        border:solid 2px #031634;
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .botao{
+        width: 55px;
+        height: 48px;
+        display: block;
+        float: left;
+        background-color:#031634;
+    }
+
+    .alinharbarra{
+    }
+    /*Conteudo da pagina*/
+    .pardebaixo{
+        width: 100%;
+    }
+
+    .titulodois{
+        width: 100%;
+        height: 50px;
+    }
+
+    .letras{
+        width: 150px;
+        height: 100%;
+        background-color: #F9F9F9;
+        text-align: center;
+        font-size: 17px;
+        color: #696969;
+        float: left;
+        line-height: 50px;
+    }
+
+    .linhaesquerda{
+        width: 80px;
+        height: 50%;
+        float: left;
+    }
+
+    .linhadireita{
+        width: 1899px;
+        height: 50%;
+        border-bottom:  solid 1px #696969;
+    }
+
+    .cont{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cont a
+    {
+        display: block;
+        width: 100%;
+        float: left;
+        margin-left: 0;
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.6);
+        cursor: pointer;
+        margin-top: 25px;
+    }
+
+    .maispesquisados{
+        width: 100%;
+    }
+
+
+    .imagem{
+        width:100%;
+        max-height: 250px;
+        margin: 0 auto;
+        max-width: 400px;
+        overflow: hidden;
+    }
+
+    .imagem img
+    {
+        width: 100%;
+        height: 100%;
+        max-height: 250px;
+    }
+
+    .direito{
+        width: 315px;
+        height: 100%;
+        float: left;
+    }
+
+    .titulohotel{
+        width: 90%;
+        height: 40px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-family: RalewayRegular;
+    }
+
+    .contConheca{
+        width: 100%;
+    }
+
+    .valor
+    {
+        margin: 0 auto;
+        font-family: Arial;
+        color: green;
+        font-size: 25px;
+        padding-left: 27px;
+    }
+
+    .estrelinhas{
+        margin: 0 auto;
+        margin-left: 5%;
+    }
+
+    table{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-family: Microsoft JhengHei UI;
+    }
+
+    .estrelinhas img{
+        width: 25px;
+        height: 25px;
+    }
+
+    #buscaConheca
+    {
+        width: 100%;
+        background-color: #fff;
+        float: left;
+        overflow: hidden;
+    }
+
+    #buscaConheca ul
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+    #buscaConheca ul li
+    {
+        padding-left: 40px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    #buscaConheca ul li:hover
+    {
+        background-color: #ccc;
+        cursor: pointer;
+    }
+}
+/*Desktop 1920x1080*/
+@media only screen and (min-device-width : 481px)
+{
+    @font-face {
+      font-family: Raleway;
+        src: url("../fonts/Raleway-Medium.ttf");
+      }
+
+
+    #section{
+        display: flex;
+        width: 100%;
+        height: 1000px;
+        margin-left: 0;
+    }
+    .principal{
+        width: 100%;
+        height: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .isolamentoPartedeCima{
+        width: 100%;
+        height: 550px;
+        /*background-image: url();*/
+    }
+    .isolamentoPartedeCima img{
+        width: 100%;
+        height: 550px;
+        /*background-image: url();*/
+    }
+    .absolute{
+      width: 900px;
+      height: 500px;
+      background-color: ;
+      position: relative;
+      margin-top: -530px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .titulo{
+        width: 100%;
+        height: 100px;
+        display: flex;
+    }
+
+    .um{
+        width: 630px;
+        height: 40%;
+        float: left;
+        margin-left: 20px;
+        border-bottom: solid 0px #696969;
+    }
+
+    .tituloum{
+        width: 400px;
+        font-size: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        color: #F8F8FF;
+        margin-top: 10px;
+        text-align: center;
+        font-family: Raleway;
+    }
+
+    .dois{
+        width: 630px;
+        height: 40%;
+        float: left;
+        border-bottom: solid 0px #696969 ;
+    }
+
+    .barradepesquisa{
+        width: 100%;
+        height: 250px;
+        margin-top: 80px;
+    }
+
+    .barra{
+        height: 40px;
+        border:solid 2px #031634;
+        font-size: 18px;
+    }
+
+    .botao{
+        width: 55px;
+        height: 48px;
+        display: block;
+        float: left;
+        background-color:#031634;
+    }
+
+    .alinharbarra{
+        width: 800px;
+        height: 80px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Conteudo da pagina*/
+    .pardebaixo{
+        width: 100%;
+        height: 560px;
+    }
+
+    .titulodois{
+        width: 100%;
+        height: 50px;
+    }
+
+    .letras{
+        width: 150px;
+        height: 100%;
+        background-color: #fff;
+        text-align: center;
+        font-size: 17px;
+        color: #696969;
+        float: left;
+        line-height: 50px;
+    }
+
+    .linhaesquerda{
+        width: 80px;
+        height: 50%;
+        float: left;
+    }
+
+    .linhadireita{
+        width: 1899px;
+        height: 50%;
+        border-bottom:  solid 1px #696969;
+    }
+
+    .cont{
+        width: 84%;
+        height: 500px;
+        margin-left: 150px;
+    }
+
+    .cont a
+    {
+        display: block;
+        width: 45%;
+        height: 332px;
+        float: left;
+        margin-left: 0;
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.6);
+        cursor: pointer;
+    }
+
+    .maispesquisados{
+        width: 100%;
+        height: 332px;
+    }
+
+    .cont a:not(:first-child)
+    {
+        margin-left: 130px;
+    }
+
+    .imagem{
+        width:400px;
+        height: 100%;
+        float: left;
+    }
+
+    .imagem img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .direito{
+        width: 315px;
+        height: 100%;
+        float: left;
+    }
+
+    .titulohotel{
+        width: 90%;
+        height: 40px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-family: RalewayRegular;
+    }
+
+    .contConheca{
+        width: 100%;
+        height: 230px;
+    }
+
+    .valor
+    {
+        margin: 0 auto;
+        font-family: Arial;
+        color: green;
+        font-size: 25px;
+        width: 125px;
+    }
+
+    .estrelinhas{
+        margin: 0 auto;
+        margin-left: 5%;
+    }
+
+    table{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        font-family: Microsoft JhengHei UI;
+    }
+
+    .estrelinhas img{
+        width: 25px;
+        height: 25px;
+    }
+
+    #buscaConheca
+    {
+        width: 100%;
+        background-color: #fff;
+        float: left;
+        overflow: hidden;
+    }
+
+    #buscaConheca ul
+    {
+        padding: 0;
+        margin: 0;
+    }
+
+    #buscaConheca ul li
+    {
+        padding-left: 40px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    #buscaConheca ul li:hover
+    {
+        background-color: #ccc;
+        cursor: pointer;
+    }
+}

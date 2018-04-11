@@ -1,0 +1,1596 @@
+/*Arquivo style.css define o estilo do cabeçalho, rodapé e elementos
+pertencentes a várias páginas .php*/
+/*Fontes*/
+@font-face{
+
+    font-family: SourceSansRegular;
+    src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face{
+
+    font-family: Cordiau;
+    src: url("../fonts/cordiau.ttf");
+}
+
+@font-face{
+
+    font-family: SourceSansSemibold;
+    src: url("../fonts/SourceSansPro-Semibold.ttf");
+}
+
+@font-face{
+
+    font-family: SourceSansBold;
+    src: url("../fonts/SourceSansPro-Bold.ttf");
+}
+
+@font-face{
+
+    font-family: SourceSansBlack;
+    src: url("../fonts/SourceSansPro-Black.ttf");
+}
+
+@font-face{
+
+    font-family: RalewayMedium;
+    src: url("../fonts/Raleway-Medium.ttf");
+}
+
+@font-face{
+
+    font-family: RalewayRegular;
+    src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face{
+
+    font-family: RobotoBold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face{
+
+    font-family: RobotoMedium;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+/**/
+/*Mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    /*Conteúdo das páginas .php*/
+    body
+    {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-family: Calibri;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+
+    ul
+    {
+        list-style: none;
+    }
+
+    a
+    {
+        color: inherit;
+        text-decoration: none;
+    }
+    /**/
+    /* Sortable tables */
+    table.sortable thead {
+
+        color:#666666;
+        font-weight: bold;
+        cursor: default;
+    }
+    /**/
+    /*Cabeçalho*/
+    header
+    {
+        width: 100%;
+        height: 100px;
+        float: left;
+    }
+
+    #headerCategorias
+    {
+        width: 100%;
+        height: 50px;
+        background-color: #4682b4;
+        float: left;
+        display: none;
+    }
+
+    #headerCategoriasBox
+    {
+        width: 83.5%;
+        height: 100%;
+    }
+
+    #headerMenu
+    {
+        width: 100%;
+        height: 100px;
+        float: left;
+        background-color: #031634;
+    }
+
+    #menuResponsivo
+    {
+        color: #fff;
+        display: block;
+        width: 96px;
+        height: 96px;
+        float: left;
+        font-size: 96px;
+        line-height: 1.1;
+        padding-left: 10px;
+        cursor: pointer;
+
+    }
+
+    #headerLogo
+    {
+        width: 65%;
+        height: 95%;
+        overflow: hidden;
+        user-select: none;
+        float: right;
+    }
+
+    #headerLogo a
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    #headerLogo img
+    {
+        width: 320px;
+        max-width: 100%;
+        height: 115px;
+        display: block;
+        margin: 0 auto;
+        margin-top: -10px;
+        user-select: none;
+    }
+
+    #headerBusca
+    {
+        display: none;
+    }
+
+    #headerBusca input[type="text"]
+    {
+        width: 80%;
+        float: left;
+        height: 40px;
+        font-size: 16pt;
+        border: 2px solid rgba(176, 196, 222, 0.8);
+    }
+
+    #headerBusca input[type="image"]
+    {
+        width: 42px;
+        height: 42px;
+        display: block;
+        float: left;
+        background-color: #4682b4;
+        border: solid 2px rgba(176, 196, 222, 0.8);
+        border-left: none;
+    }
+
+    .headerBtn
+    {
+        width: 100px;
+        height: 95%;
+        margin-right: 150px;
+        float: right;
+        text-align: center;
+        color: #fff;
+        margin-top: 3px;
+        line-height: 1;
+        cursor: pointer;
+        font-family: RobotoMedium;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        display: none;
+    }
+
+    .headerBtn:hover{
+
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        background-color: rgba(255,255,255,0.2);
+    }
+
+    .headerBtn img
+    {
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    /**/
+    /*Menu do cabeçalho*/
+    #categorias
+    {
+        list-style: none;
+        color: #fff;
+        padding: 0;
+        display: none;
+
+    }
+
+    #categorias li
+    {
+        float: left;
+        padding: 10px;
+        height: 23px;
+        text-align: center;
+        margin: 0;
+        margin-top: -15px;
+        width: 11%;
+        font-family: SourceSansBold;
+        font-size: 16px;
+    }
+
+    #categorias li:hover
+    {
+        border-bottom: solid 6px #fff;
+        background-color: rgba(255,255,255,0.1);
+    }
+
+    #categorias li a
+    {
+        display: block;
+        height: 100%;
+
+        width: 100%;
+    }
+    /**/
+    /*Login do cabeçalho*/
+    #headerLogin
+    {
+        width: 15%;
+        height: 250px;
+        position: absolute;
+        z-index: 99;
+        right: 0;
+        margin-right: 60px;
+        margin-top: 125px;
+        background-color: #ffffff;
+        border-radius: 2px;
+        border: solid 1px rgba(176, 196, 222, 0.8);
+        -webkit-clip-path: polygon(50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+        clip-path: polygon(50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+    }
+
+    #headerLogin table
+    {
+        width: 100%;
+        height: 70%;
+        color: #999;
+        margin-top: 30px;
+    }
+
+    #headerLogin td{
+        padding: 0;
+        width: 100%;
+    }
+    #headerLogin label
+    {
+        margin-left: 12px;
+    }
+
+    #headerLogin h2{
+        font-family: RalewayRegular;
+        font-size: 25px;
+        color: #4682b4;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #headerLogin h3{
+        padding: 0;
+        margin: 0;
+    }
+
+    #headerLogin input[type="text"]
+    {
+        width: 90%;
+        height: 25px;
+        background-color: #fff;
+        border: 1px #bababa solid;
+        margin-left: 12px;
+        border-radius: 2px;
+
+    }
+    #headerLogin input[type="password"]
+    {
+        width: 90%;
+        height: 25px;
+        margin-left: 12px;
+        background-color: #fff;
+        border: 1px #bababa solid;
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+    #headerLogin #btnLogin
+    {
+        width: 80%;
+        height: 32px;
+        font-family: RobotoBold;
+        font-size: 13px;
+        color: #fff;
+        background-color: #2b4aa0;
+        border: none;
+        border-radius: 4px;
+        display: block;
+        margin: auto;
+    }
+
+    #headerLogin #btnLogin:hover
+    {
+        background-color: #fff;
+        color: #2b4aa0;
+        border: solid 1px #2b4aa0;
+    }
+
+    #headerLogin #btnNovoUsuario
+    {
+        width: 80%;
+        height: 32px;
+        font-family: RobotoBold;
+        font-size: 13px;
+        color: #2b4aa0;
+        background-color: #fff;
+        border: 1px solid #2b4aa0;
+        border-radius: 4px;
+        display: block;
+        margin: auto;
+    }
+
+    #headerLogin #btnNovoUsuario:hover
+    {
+        background-color: #2b4aa0;
+        color: #fff;
+    }
+
+    #headerLogin h3{
+        text-align: center;
+        font-family: RobotoBold;
+        font-size: 13px;
+        color: #626263;
+        cursor: pointer;
+        padding-top: 4px;
+    }
+
+    #headerLogin h3:hover{
+        text-decoration: underline;
+    }
+
+    #btnCriarConta{
+        width: 100px;
+        height: 30px;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid #2b4aa0;
+        font-family: RobotoBold;
+        font-size: 13px;
+        border-radius: 2px;
+        text-align: center;
+        line-height: 30px;
+        color: #2b4aa0;
+        float: left;
+        cursor: pointer;
+        margin-left: 35px;
+    }
+
+    #headerMoeda
+    {
+        width: 10%;
+        position: absolute;
+        z-index: 99;
+        right: 0;
+        margin-right: 215px;
+        margin-top: 120px;
+        background-color: #ffffff;
+        border-radius: 2px;
+        color: #2b4aa0;
+        border: solid 1px rgba(176, 196, 222, 0.8);
+        font-family: RobotoMedium;
+        -webkit-clip-path: polygon(50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+        clip-path: polygon(50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+    }
+    /**/
+    /*Menu de seleção de moeda do cabeçalho*/
+    #headerMoeda ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    #headerMoeda li
+    {
+        padding: 10px;
+    }
+
+    #headerMoeda li:hover
+    {
+        background-color:rgba(176, 196, 222, 1);
+    }
+
+    #headerMoeda li a
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+    /*Rodapé*/
+    footer
+    {
+        width: 100%;
+        float: left;
+        height: 250px;
+        background-color: #031634;
+    }
+
+    #footer
+    {
+        width: 100%;
+        height: 100%;
+        color: #ccc;
+    }
+
+    #footerLinkBox
+    {
+
+        display: none;
+    }
+
+    #footerLinkBox ul{
+        color: #fff;
+    }
+
+    #footer h3
+    {
+        padding: 0;
+        margin: 0;
+        padding-top: 6px;
+        text-align: left;
+    }
+    #footerParceirosBox
+    {
+        display: none;
+    }
+
+    #footerDados
+    {
+        width: 100%;
+        height: 100%;
+        float: left;
+    }
+
+    #footerDados h3
+    {
+        font-family: RalewayRegular;
+        text-align: center;
+    }
+
+    #footerLogo
+    {
+        width: 80%;
+        height: 40%;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #footerLogo img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    #footerRedeSocialBox
+    {
+        width: 200px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+    }
+
+    .footerRedeSocial
+    {
+        width: 35px;
+        height: 35px;
+        float: left;
+        cursor: pointer;
+        overflow: hidden;
+        margin-left:5px;
+    }
+
+    .footerRedeSocial img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+    /*Modal da busca avançada*/
+    #buscaAvancadaBackground
+    {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 98;
+        overflow: auto;
+        opacity: 0;
+    }
+
+    #buscaAvancadaBox
+    {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        position: relative;
+        background-color: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    #fecharBusca
+    {
+        width: 100%;
+        font-size: 18pt;
+        height: 50px;
+        background-color: #4682b4;
+        color: #fff;
+        user-select: none;
+    }
+
+    #fecharBusca h4
+    {
+        padding: 0;
+        margin: 0;
+        line-height: 2;
+        margin-left: 20px;
+        float: left;
+    }
+
+    #fecharBusca span
+    {
+        float: right;
+        margin-right: 20px;
+        cursor: pointer;
+        line-height: 1.75;
+        font-size: 20pt;
+    }
+
+    #conteudoBuscaEsquerda
+    {
+        clear: both;
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 20px;
+        float: left;
+    }
+
+    #conteudoBuscaEsquerda table
+    {
+        width: 90%;
+    }
+
+    #conteudoBuscaEsquerda table tr td label{
+        font-family: RalewayRegular;
+    }
+
+    #conteudoBuscaEsquerda input[type="text"]
+    {
+        width: 99%;
+        height: 30px;
+        font-size: 13pt;
+    }
+
+    #conteudoBuscaEsquerda select
+    {
+        width: 100%;
+        height: 30px;
+        font-size: 13pt;
+        font-family: RalewayMedium;
+    }
+
+
+    #conteudoBuscaDireita
+    {
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+        margin-top: 20px;
+        float: left;
+    }
+
+    #comodidadesBox
+    {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #comodidadesBox h3
+    {
+        text-align: left;
+        border: none;
+    }
+
+    #comodidadesBox ul
+    {
+        max-height: 100px;
+        overflow: auto;
+        list-style: none;
+    }
+
+    #btnBuscaAvancada
+    {
+        width: 100%;
+        height: 75px;
+        margin: 0 auto;
+        background-color: #4682b4;
+        color: #fff;
+        text-align: center;
+        font-family: RobotoMedium;
+        font-size: 18pt;
+        letter-spacing: 2pt;
+        line-height: 3;
+        margin-top: 25px;
+    }
+    /**/
+
+    #buscaTR
+    {
+        position: absolute;
+        z-index: 5;
+        background-color: #fff;
+        margin-top: 45px;
+        width: 80.5%;
+        border: solid 2px #ccc;
+        border-top: none;
+        overflow: hidden;
+        display: none;
+    }
+
+    #buscaTR ul
+    {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+    }
+
+    #buscaTR a
+    {
+        padding-left: 10px;
+    }
+
+    #buscaTR ul li
+    {
+        cursor: pointer;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #buscaTR ul li:hover
+    {
+        background-color: #eee;
+    }
+
+
+    /**/
+
+    #buscaTRA
+    {
+        position: absolute;
+        z-index: 5;
+        background-color: #fff;
+
+        width: 40%;
+        border: solid 2px #ccc;
+        border-top: none;
+        overflow: hidden;
+        display: none;
+    }
+
+    #buscaTRA ul
+    {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+    }
+
+    #buscaTRA a
+    {
+        padding-left: 10px;
+    }
+
+    #buscaTRA ul li
+    {
+        cursor: pointer;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #buscaTRA ul li:hover
+    {
+        background-color: #eee;
+    }
+
+
+    #msgLogin
+    {
+        font-size: 10pt;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+        text-align: center;
+        color: red;
+        margin-top: -4px;
+    }
+
+    #modalBg
+    {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 97;
+        display: none;
+    }
+
+    #menuResponsivoBox
+    {
+        position: absolute;
+        width: 66%;
+        background-color: #031634;
+        height: 100%;
+        margin-left: -66%;
+        z-index: 97;
+    }
+
+    #menuResponsivoBusca
+    {
+        display: block;
+        width: 90%;
+        padding: 16px;
+    }
+
+    #menuResponsivoBox  input[type="text"]
+    {
+        width: 70%;
+        float: left;
+        font-size: 18pt;
+        padding: 3.5px;
+        border: none;
+    }
+
+    #menuResponsivoBox input[type="image"]
+    {
+        float: left;
+        width: 32px;
+        height: 35px;
+        border: none;
+        background-color: #4682b4;
+        border: solid 1px #4682b4;
+    }
+
+    #menuResponsivoBox ul
+    {
+        list-style: none;
+        width: 90%;
+        margin: 0 auto;
+        border: 0;
+        padding: 0;
+        color: #fff;
+        font-size: 18pt;
+    }
+
+    #menuResponsivoBox ul:first-of-type
+    {
+        margin-top: 50px;
+    }
+
+    #menuResponsivoBox ul li
+    {
+        padding: 4px;
+    }
+
+    #menuResponsivoBox ul a
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 45px;
+    }
+    #menuResponsivoBox hr
+    {
+        width: 90%;
+        border-color: #fff;
+    }
+
+
+}
+/*Desktop 1920x1080*/
+@media only screen and (min-device-width : 481px)
+{
+    /*Conteúdo das páginas .php*/
+    body
+    {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-family: Calibri;
+        max-width: 1920px;
+        margin: 0 auto;
+        background-color: #f9f9f9;
+    }
+
+    ul
+    {
+        list-style: none;
+    }
+
+    a
+    {
+        color: inherit;
+        text-decoration: none;
+    }
+    /**/
+    /* Sortable tables */
+    table.sortable thead {
+
+        color:#666666;
+        font-weight: bold;
+        cursor: default;
+    }
+    /**/
+    /*Cabeçalho*/
+    header
+    {
+        width: 100%;
+        height: 150px;
+        float: left;
+    }
+
+    #headerCategorias
+    {
+        width: 100%;
+        height: 50px;
+        background-color: #4682b4;
+        float: left;
+    }
+
+    #headerCategoriasBox
+    {
+        width: 83.5%;
+        height: 100%;
+        margin-left: 150px;
+    }
+
+    #headerMenu
+    {
+        width: 100%;
+        height: 100px;
+        float: left;
+        background-color: #031634;
+    }
+
+    #headerLogo
+    {
+        width: 320px;
+        height: 95%;
+        overflow: hidden;
+        margin-left: 150px;
+
+        float: left;
+        user-select: none;
+    }
+
+    #headerLogo img
+    {
+        width: 320px;
+    	height: 115px;
+        margin-top: -10px;
+        user-select: none;
+    }
+
+    #headerBusca
+    {
+        width: 40%;
+        float: left;
+        margin-left: 2.5%;
+        margin-top: 25px;
+        position: relative;
+    }
+
+    #headerBusca input[type="text"]
+    {
+        width: 80%;
+        float: left;
+        height: 40px;
+        font-size: 16pt;
+        border: 2px solid rgba(176, 196, 222, 0.8);
+    }
+
+    #headerBusca input[type="image"]
+    {
+        width: 42px;
+        height: 42px;
+        display: block;
+        float: left;
+        background-color: #4682b4;
+        border: solid 2px rgba(176, 196, 222, 0.8);
+        border-left: none;
+    }
+
+    .headerBtn
+    {
+        width: 100px;
+        height: 95%;
+        margin-right: 150px;
+        float: right;
+        text-align: center;
+        color: #fff;
+        margin-top: 3px;
+        line-height: 1;
+        cursor: pointer;
+        font-family: RobotoMedium;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    .headerBtn:hover{
+
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        background-color: rgba(255,255,255,0.2);
+    }
+
+    .headerBtn img
+    {
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    /**/
+    /*Menu do cabeçalho*/
+    #categorias
+    {
+        list-style: none;
+        color: #fff;
+        padding: 0;
+    }
+
+    #categorias li
+    {
+        float: left;
+        padding: 10px;
+        height: 23px;
+        text-align: center;
+        margin: 0;
+        margin-top: -15px;
+        width: 11%;
+        font-family: SourceSansBold;
+        font-size: 16px;
+    }
+
+    #categorias li:hover
+    {
+        border-bottom: solid 6px #fff;
+        background-color: rgba(255,255,255,0.1)
+    }
+
+    #categorias li a
+    {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    /**/
+    /*Login do cabeçalho*/
+    #headerLogin
+    {
+        width: 15%;
+        height: 250px;
+        position: absolute;
+        z-index: 99;
+        right: 0;
+        margin-right: 60px;
+        margin-top: 125px;
+        background-color: #ffffff;
+        border-radius: 2px;
+        border: solid 1px rgba(176, 196, 222, 0.8);
+        -webkit-clip-path: polygon(50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+        clip-path: polygon(50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+    }
+
+    #headerLogin table
+    {
+        width: 100%;
+        height: 70%;
+        color: #999;
+        margin-top: 30px;
+    }
+
+    #headerLogin td{
+        padding: 0;
+        width: 100%;
+    }
+    #headerLogin label
+    {
+        margin-left: 12px;
+    }
+
+    #headerLogin h2{
+        font-family: RalewayRegular;
+        font-size: 25px;
+        color: #4682b4;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #headerLogin h3{
+        padding: 0;
+        margin: 0;
+    }
+
+    #headerLogin input[type="text"]
+    {
+        width: 90%;
+        height: 25px;
+        background-color: #fff;
+        border: 1px #bababa solid;
+        margin-left: 12px;
+        border-radius: 2px;
+
+    }
+    #headerLogin input[type="password"]
+    {
+        width: 90%;
+        height: 25px;
+        margin-left: 12px;
+        background-color: #fff;
+        border: 1px #bababa solid;
+        border-radius: 2px;
+        margin-bottom: 10px;
+    }
+    #headerLogin #btnLogin
+    {
+        width: 80%;
+        height: 32px;
+        font-family: RobotoBold;
+        font-size: 13px;
+        color: #fff;
+        background-color: #2b4aa0;
+        border: none;
+        border-radius: 4px;
+        display: block;
+        margin: auto;
+    }
+
+    #headerLogin #btnLogin:hover
+    {
+        background-color: #fff;
+        color: #2b4aa0;
+        border: solid 1px #2b4aa0;
+    }
+
+    #headerLogin #btnNovoUsuario
+    {
+        width: 80%;
+        height: 32px;
+        font-family: RobotoBold;
+        font-size: 13px;
+        color: #2b4aa0;
+        background-color: #fff;
+        border: 1px solid #2b4aa0;
+        border-radius: 4px;
+        display: block;
+        margin: auto;
+    }
+
+    #headerLogin #btnNovoUsuario:hover
+    {
+        background-color: #2b4aa0;
+        color: #fff;
+    }
+
+    #headerLogin h3{
+        text-align: center;
+        font-family: RobotoBold;
+        font-size: 13px;
+        color: #626263;
+        cursor: pointer;
+        padding-top: 4px;
+    }
+
+    #headerLogin h3:hover{
+        text-decoration: underline;
+    }
+
+    #btnCriarConta{
+        width: 100px;
+        height: 30px;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid #2b4aa0;
+        font-family: RobotoBold;
+        font-size: 13px;
+        border-radius: 2px;
+        text-align: center;
+        line-height: 30px;
+        color: #2b4aa0;
+        float: left;
+        cursor: pointer;
+        margin-left: 35px;
+    }
+
+    #headerMoeda
+    {
+        width: 10%;
+        position: absolute;
+        z-index: 99;
+        right: 0;
+        margin-right: 215px;
+        margin-top: 120px;
+        background-color: #ffffff;
+        border-radius: 2px;
+        color: #2b4aa0;
+        border: solid 1px rgba(176, 196, 222, 0.8);
+        font-family: RobotoMedium;
+        -webkit-clip-path: polygon(50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+        clip-path: polygon(50% 0, 60% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 40% 10%);
+    }
+    /**/
+    /*Menu de seleção de moeda do cabeçalho*/
+    #headerMoeda ul
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    #headerMoeda li
+    {
+        padding: 10px;
+    }
+
+    #headerMoeda li:hover
+    {
+        background-color:rgba(176, 196, 222, 1);
+    }
+
+    #headerMoeda li a
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+    /*Rodapé*/
+    footer
+    {
+        width: 100%;
+        float: left;
+        height: 250px;
+        background-color: #031634;
+    }
+
+    #footer
+    {
+        width: 84%;
+        margin-left: 150px;
+        height: 100%;
+        color: #ccc;
+    }
+
+    #footerLinkBox
+    {
+        font-family: RalewayRegular;
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+
+    #footer h3
+    {
+        padding: 0;
+        margin: 0;
+        padding-top: 6px;
+        text-align: left;
+    }
+
+    .footerLink
+    {
+        font-size: 14pt;
+        width: 50%;
+        height: 80%;
+        float: left;
+    }
+
+    .footerLink ul
+    {
+        list-style: none;
+        padding: 0;
+    }
+    .footerLink ul li:hover
+    {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    #footerParceirosBox
+    {
+        width: 40%;
+        height: 100%;
+        float: left;
+    	visibility: hidden;
+    }
+
+    .footerParceiro
+    {
+        width: 40%;
+        height: 40%;
+        float: left;
+        border: solid 1px #eee;
+        margin-top: 16px;
+        background-color: #fff;
+    }
+
+    .footerParceiro:nth-child(2)
+    {
+        margin-left: 16px;
+    }
+
+    .footerParceiro:nth-child(4)
+    {
+        margin-left: 16px;
+    }
+
+    .footerParceiro img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    #footerDados
+    {
+        width: 19%;
+        height: 100%;
+        float: left;
+    }
+
+    #footerDados h3
+    {
+        font-family: RalewayRegular;
+        text-align: center;
+    }
+
+    #footerLogo
+    {
+        width: 80%;
+        height: 40%;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #footerLogo img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    #footerRedeSocialBox
+    {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+    }
+
+    .footerRedeSocial
+    {
+        width: 35px;
+        height: 35px;
+        float: left;
+        margin-left: 5.5%;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .footerRedeSocial img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    /**/
+    /*Modal da busca avançada*/
+    #buscaAvancadaBackground
+    {
+        margin: 0;
+        padding: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.5);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 98;
+        overflow: auto;
+        opacity: 0;
+    }
+
+    #buscaAvancadaBox
+    {
+        width: 1200px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        position: relative;
+        background-color: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    #fecharBusca
+    {
+        width: 100%;
+        font-size: 18pt;
+        height: 50px;
+        background-color: #4682b4;
+        color: #fff;
+        user-select: none;
+    }
+
+    #fecharBusca h4
+    {
+        padding: 0;
+        margin: 0;
+        line-height: 2;
+        margin-left: 20px;
+        float: left;
+    }
+
+    #fecharBusca span
+    {
+        float: right;
+        margin-right: 20px;
+        cursor: pointer;
+        line-height: 1.75;
+        font-size: 20pt;
+    }
+
+    #conteudoBuscaEsquerda
+    {
+        clear: both;
+        width: 45%;
+        height: 95%;
+        margin-left: 20px;
+        margin-top: 20px;
+        float: left;
+    }
+
+    #conteudoBuscaEsquerda table
+    {
+        width: 90%;
+    }
+
+    #conteudoBuscaEsquerda table tr td label{
+        font-family: RalewayRegular;
+    }
+
+    #conteudoBuscaEsquerda input[type="text"]
+    {
+        width: 99%;
+        height: 30px;
+        font-size: 13pt;
+    }
+
+    #conteudoBuscaEsquerda select
+    {
+        width: 100%;
+        height: 30px;
+        font-size: 13pt;
+        font-family: RalewayMedium;
+    }
+
+
+    #conteudoBuscaDireita
+    {
+        width: 45%;
+        height: 70%;
+        margin-right: 20px;
+        margin-top: 20px;
+        float: right;
+    }
+
+    #comodidadesBox
+    {
+        width: 90%;
+    }
+
+    #comodidadesBox h3
+    {
+        text-align: left;
+        border: none;
+    }
+
+    #comodidadesBox ul
+    {
+        max-height: 300px;
+        overflow: hidden;
+        list-style: none;
+    }
+
+    #btnBuscaAvancada
+    {
+        float: right;
+        width: 17%;
+        height: 75px;
+        margin-right: 70px;
+        background-color: #4682b4;
+        color: #fff;
+        text-align: center;
+        font-family: RobotoMedium;
+        font-size: 18pt;
+        letter-spacing: 2pt;
+        line-height: 3;
+        border-radius: 10px;
+        border: solid 1px #031634;
+    }
+    /**/
+
+    #buscaTR
+    {
+        position: absolute;
+        z-index: 5;
+        background-color: #fff;
+        margin-top: 45px;
+        width: 80.5%;
+        border: solid 2px #ccc;
+        border-top: none;
+        overflow: hidden;
+        display: none;
+    }
+
+    #buscaTR ul
+    {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+    }
+
+    #buscaTR a
+    {
+        padding-left: 10px;
+    }
+
+    #buscaTR ul li
+    {
+        cursor: pointer;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #buscaTR ul li:hover
+    {
+        background-color: #eee;
+    }
+
+
+    /**/
+
+    #buscaTRA
+    {
+        position: absolute;
+        z-index: 5;
+        background-color: #fff;
+
+        width: 40%;
+        border: solid 2px #ccc;
+        border-top: none;
+        overflow: hidden;
+        display: none;
+    }
+
+    #buscaTRA ul
+    {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+    }
+
+    #buscaTRA a
+    {
+        padding-left: 10px;
+    }
+
+    #buscaTRA ul li
+    {
+        cursor: pointer;
+        height: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #buscaTRA ul li:hover
+    {
+        background-color: #eee;
+    }
+
+
+    #msgLogin
+    {
+        font-size: 10pt;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        width: 100%;
+        text-align: center;
+        color: red;
+        margin-top: -4px;
+    }
+
+    #modalBg
+    {
+        width: 100%;
+        height: 995px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 98;
+        display: none;
+    }
+
+    #menuResponsivo
+    {
+        display: none;
+    }
+
+    #menuResponsivoBox
+    {
+        display: none;
+    }
+
+
+}
+/**/

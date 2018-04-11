@@ -1,0 +1,234 @@
+section{
+
+  height: 1029px;
+  background-color: ;
+}
+.principalSobreNos{
+  width: 80%;
+  height: 98%;
+  background-color:  ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.tituloSobreNos{
+  width: 100%;
+  height: 50px;
+  background-color: ;
+  font-family: SourceSansRegular;
+  text-align: center;
+  font-size: 33px;
+}
+.isoladorConteudo{
+  width: 100%;
+  height: 88%;
+  background-color: ;
+}
+.conteudoSobreNos{
+  width: 50%;
+  height: 100%;
+  background-color: ;
+  float: left;
+  border-right: solid 1px #ccc;
+}
+.conteudoSobreNos2{
+  width: 49%;
+  height: 100%;
+  background-color: ;
+  float: left;
+  overflow: hidden;
+}
+.botaoSobreNos{
+  width: 100%;
+  height: 6%;
+  background-color: ;
+  display: flex;
+}
+.botaozinho{
+  width: 150px;
+  height: 54px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 55px;
+  border: solid 2px #4682b4;
+  border-radius: 8px;
+  color:#4682b4;
+  font-family: RalewayRegular;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.botaozinho:hover{
+  background-color: #4682b4;
+  border: 2px solid #ccc;
+  color:#fff;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.superiorEsquerda{
+  width: 100%;
+  height: 35%;
+  background-color: ;
+  border-bottom: solid 1px #ccc;
+}
+.inferiorEsquerda{
+  width: 100%;
+  height: 50%;
+  background-color: ;
+}
+.tiraVisaoMissaoValores{
+  width: 250px;
+  height: 100%;
+  background-color: ;
+  margin-left: 3px;
+  float: left;
+  margin-top: 5px;
+}
+.foto{
+  width: 100%;
+  height: 40%;
+  background-color: ;
+
+}
+.foto input{
+  width: 250px;
+  margin-bottom: 5px;
+}
+.conteudo{
+  width: 100%;
+  height: 80%;
+  background-color: ;
+  margin-top: 15px;
+
+}
+.tituloSobreNosInferior{
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  font-size: 25px;
+  font-family: SourceSansRegular;
+}
+.descricaoSobrenos{
+  width: 97%;
+  height: 250px;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-family: RalewayRegular;
+  text-align: justify;
+}
+.conteudo h3{
+  width: 100%;
+  height: 30px;
+  background-color: ;
+  margin-top: -40px;
+  text-align: center;
+  font-family: SourceSansRegular;
+}
+.conteudo p{
+  text-align: justify;
+  background-color: ;
+  margin-top: -20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: RalewayRegular;
+}
+
+.superiorDireita{
+  width: 100%;
+  height: 50%;
+  background-color: ;
+}
+.inferiorDireita{
+  width: 100%;
+  height: 50%;
+  background-color: ;
+  border: solid 1px #ccc
+}
+.tiraAno{
+  width: 100%;
+  height: 140px;
+  background-color: ;
+}
+
+.tiraAno:not(:first-of-type)
+{
+  margin-top: 10px;
+}
+.fotoDireita{
+  width: 60%;
+  height: 100%;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.tituloAno{
+  width: 100%;
+  height: 25px;
+  background-color: ;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: SourceSansRegular;
+  color:#4682b4;
+  padding-left: 10px;
+}
+.conteudoAno{
+  width: 96%;
+  height: 110px;
+  background-color: ;
+  font-size: 18px;
+  font-family: RalewayRegular;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.conteudoArea{
+  width:90%;
+  background-color: ;
+  margin-top: ;
+  height: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: RalewayRegular;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.botao input{
+    height: 60px;
+    width: 150px;
+    background-color: #fff;
+    border: 2px solid #4682b4;
+    border-radius: 8px;
+    color:#4682b4;
+    font-family: RalewayRegular;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    margin-left: 0;
+    
+
+}
+
+.botao input:hover{
+    background-color: #4682b4;
+    border: 2px solid #ccc;
+    color:#fff;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+}
+
+/*EDITAR*/

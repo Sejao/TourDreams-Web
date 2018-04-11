@@ -1,0 +1,220 @@
+/*Mobile*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    @font-face {
+      font-family: Raleway;
+        src: url("../fonts/Raleway-Medium.ttf");
+      }
+    .sectionnn{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    }
+    .conteudo{
+      width: 90%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    .fotoPessoa{
+      width: 100%;
+      height: 100%;
+      margin-top: 20px;
+    }
+    .titulo{
+      width: 900px;
+      height: 100%;
+      background-color: ;
+      float: left;
+    }
+
+    .foto
+    {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+    .fotinhaMulher{
+      width: 100%;
+      height: 100%;
+      background-image: url(../imagens/busca/mulher.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+
+    }
+    .nome{
+      width: 100%;
+      float: left;
+    }
+
+    .nomePessoa{
+      font-size: 25px;
+      font-family: Raleway;
+    }
+    .subtitulo{
+      font-size: 18px;
+      color: #696969;
+      float: left;
+    }
+
+    .comentario{
+      width: 100%;
+      height: auto;
+      float: left;
+      text-align: justify;
+    }
+    .alinhamento{
+      width: 100%;
+      height: 100%;
+      font-family: Raleway;
+      font-size: 16px;
+      text-align: justify;
+      line-height: 25px;
+      font-style: italic;
+    }
+    .estrelinhas{
+      width: 100%;
+      height: 40px;
+      float: left;
+      padding-bottom: 25px;
+    }
+    .estrelinhas img{
+        width: 30px;
+        height: 25px;
+        margin-top: 10px;
+
+    }
+    .auxiliar{
+      width: 100%;
+      margin-left: auto;
+    }
+}
+
+/*Desktop 1920x1080*/
+@media only screen and (min-device-width : 481px)
+{
+    @font-face {
+      font-family: Raleway;
+        src: url("../fonts/Raleway-Medium.ttf");
+      }
+    .sectionnn{
+    width: 100%;
+    height: 900px;
+    background-color: ;
+    display: flex;
+
+    }
+    .conteudo{
+      width: 1300px;
+      height: 350px;
+      border-bottom: solid 1px black;
+      background-color:  ;
+      margin-left: auto;
+      margin-right: auto;
+      float: left;
+
+    }
+    .fotoPessoa{
+      width: 100%;
+      height: 150px;
+      background-color: ;
+      margin-top: 20px;
+    }
+    .foto{
+      width: 300px;
+      height: 100%;
+      background: ;
+      float: left;
+    }
+    .titulo{
+      width: 900px;
+      height: 100%;
+      background-color: ;
+      float: left;
+    }
+    .fotinhaMulher{
+      width: 45%;
+      height: 85%;
+      background-color: ;
+      border-radius: 50%;
+      margin-left: 150px;
+      background-image: url(../imagens/busca/mulher.jpg);
+      background-size: 196px;
+      background-repeat: no-repeat;
+      background-position: -50px 0px;
+      margin-top: 10px;
+
+
+    }
+    .fotinhaHomem{
+      width: 45%;
+      height: 85%;
+      background-color: ;
+      border-radius: 50%;
+      margin-left: 150px;
+      background-image: url(../imagens/busca/homem.jpg);
+      background-size: 196px;
+      background-repeat: no-repeat;
+      background-position: -50px 0px;
+      margin-top: 10px;
+
+
+    }
+    .nome{
+      width: 800px;
+      height: 70px;
+      margin-top: 50px;
+      background-color: ;
+
+    }
+
+    .nomePessoa{
+      font-size: 25px;
+      font-family: Raleway;
+    }
+    .subtitulo{
+      font-size: 18px;
+      color: #696969;
+
+    }
+
+    .comentario{
+      width: 100%;
+      height: 100px;
+      background-color: ;
+    }
+    .alinhamento{
+      width: 70%;
+      height: 100%;
+      background-color:;
+      margin-left: 300px;
+      font-family: Raleway;
+      font-size: 16 px;
+      text-align: center;
+      line-height: 25px;
+      font-style: italic;
+    }
+    .estrelinhas{
+      width: 20%;
+      height: 40px;
+      background-color: ;
+      margin-left: 950px;
+      margin-top: 0px;
+
+
+    }
+    .estrelinhas img{
+        width: 30px;
+        height: 25px;
+        margin-top: 10px;
+
+    }
+    .auxiliar{
+      width: 84%;
+      margin-left: auto;
+    }
+}

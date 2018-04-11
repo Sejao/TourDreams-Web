@@ -1,0 +1,76 @@
+.conteudoPagina{
+  width: 100%;
+  height: 829px;
+  background-color: ;
+
+}
+
+
+
+
+
+.titulo{
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: SourceSansRegular;
+  text-align: center;
+
+}
+.conteudo{
+  width: 90%;
+  height: 60px;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 150px;
+
+
+}
+.tds{
+  width: 200px;
+
+  font-family: RalewayRegular;
+
+}
+
+.Imagem1{
+  width: 750px;
+  height: 500px;
+  background-color: ;
+  margin-top: 50px;
+  margin-right: auto;
+}
+.Imagem2{
+
+  width: 1500px;
+}
+
+.btnSalvar input{
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #4682b4;
+    border-radius:4px;
+    color:#4682b4;
+    font-family: RalewayRegular;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+
+.btnSalvar input:hover{
+    background-color: #4682b4;
+    border: 1px solid #ccc;
+    color:#fff;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+}

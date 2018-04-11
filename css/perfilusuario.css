@@ -1,0 +1,463 @@
+/*Conteúdo da página perfilusuario.php*/
+section
+{
+    width: 84%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#perfilBox
+{
+    width: 100%;
+    height: 95%;
+    margin-top: 20px;
+    border: solid 1px #ccc;
+}
+/**/
+/*Conteúdo do lado esquerdo da página (dados e histórico)*/
+#conteudoEsquerdo
+{
+    width: 59%;
+    height: 100%;
+    float: left;
+    border-right: solid 1px #ccc;
+}
+
+#imagem
+{
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+#imagem:hover > div
+{
+    display: block;
+}
+
+#imagem img
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#imagem div
+{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 16pt;
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    margin-top: 90px;
+    display: none;
+}
+
+#conteudoEsquerdo table
+{
+    float: left;
+    width: 70%;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+#conteudoEsquerdo table th img
+{
+    width: 32px;
+    height: 32px;
+}
+
+#conteudoEsquerdo th
+{
+    font-family: RalewayRegular;
+    font-size: 16pt;
+    text-align: left;
+}
+
+#conteudoEsquerdo td span
+{
+    font-weight: bold;
+}
+
+#dadosPerfil
+{
+    width: 90%;
+    height: 40%;
+    border-bottom: solid 1px #ccc;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/**/
+/*Caixa de histórico de transações*/
+#historicoBox
+{
+    width: 90%;
+    height: 55%;
+    margin: 0 auto;
+    margin-top: 16px;
+    overflow: auto;
+    border: solid 1px #ccc;
+}
+
+#historicoBox table
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#historicoBox table th
+{
+    width: 20%;
+    text-align: left;
+    font-family: Calibri;
+    font-size: 16pt;
+}
+/**/
+/*Conteúdo do lado direito da página(última viagem)*/
+#conteudoDireito
+{
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#ultimaViagem
+{
+    width: 100%;
+    margin-top: 40px;
+    font-family: RalewayRegular;
+    font-size: 18pt;
+}
+
+#imagemUltimaViagem
+{
+    width: 500px;
+    height: 300px;
+    margin:  0 auto;
+    margin-top: 16px;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+#imagemUltimaViagem img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#nomeHotel
+{
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 16px;
+    font-size: 16pt;
+}
+
+#estrelas
+{
+    float: left;
+    padding-left: 36px;
+}
+
+#estrelas img
+{
+    width: 24px;
+    height: 24px;
+}
+
+#conteudoDireito table
+{
+    clear: both;
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;
+}
+/**/
+#modalExcluir
+{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.6);
+    background-color: #fff;
+    z-index: 99;
+    overflow: hidden;
+    margin-top: 100px;
+    display: none;
+}
+
+#modalExcluir table
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+#modalExcluir td
+{
+    width: 50%;
+}
+
+#modalExcluir #cabecalhoModalExcluir
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #4682B4;
+    color: #fff;
+    padding: 4px;
+    font-size: 14pt;
+}
+
+#modalExcluir table p
+{
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+#modalExcluir table input
+{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #2b4aa0;
+    border: 0;
+    color: #fff;
+    font-family: RalewayRegular;
+    font-size: 16pt;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+        border: solid 1px #2b4aa0;
+}
+
+#modalExcluir table input:hover
+{
+    background-color: #fff;
+    color: #2b4aa0;
+}
+
+#modalEditar
+{
+    width: 1000px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.6);
+    background-color: #fff;
+    z-index: 99;
+    overflow: hidden;
+    margin-top: 100px;
+    display: none;
+}
+
+#modalEditar #conteudoModalEditar
+{
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#modalEditar #conteudoModalEditar table
+{
+    width: 40%;
+    float: left;
+}
+
+#modalEditar #conteudoModalEditar table input
+{
+    width: 99%;
+    font-size: 12pt;
+}
+
+#modalEditar #conteudoModalEditar table select
+{
+    width: 100%;
+    font-size: 12pt;
+}
+
+#imgBox
+{
+    float: right;
+    width: 50%;
+    height: 400px;
+    margin-right: 5%;
+    margin-top: 25px;
+}
+
+#imgBox table
+{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#imgBox table td
+{
+    width: 50%;
+}
+
+#imgBox img
+{
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+}
+
+#imgBox input[type="submit"]
+{
+    width: 100%;
+    float: right;
+    height: 40px;
+    background-color: #2b4aa0;
+    border: solid 1px #2b4aa0;
+    color: #fff;
+    font-family: RalewayRegular;
+    font-size: 16pt;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#imgBox input[type="submit"]:hover
+{
+    color: #2b4aa0;
+    background-color: #fff;
+}
+
+#imgBox input[type="button"]
+{
+    width: 100%;
+    float: right;
+    height: 40px;
+    background-color: #2b4aa0;
+    border: solid 1px #2b4aa0;
+    color: #fff;
+    font-family: RalewayRegular;
+    font-size: 16pt;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#imgBox input[type="button"]:hover
+{
+    color: #2b4aa0;
+    background-color: #fff;
+}
+
+#imgBox input[type="file"]
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#dadosPerfil table th img
+{
+    cursor: pointer;
+}
+
+#msg
+{
+    color: red;
+    font-size: 10pt;
+}
+.comentario{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  background-color: #4682b4;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 50px;
+  font-family: RalewayRegular;
+  color: #fff;
+  border-radius: 5px;
+  line-height:  25px;
+}
+.comentariosInsert{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 99;
+  display: none;
+
+}
+.alinhamentoComentario{
+  width: 50%;
+  height: 35%;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+  border: solid 2px #4682b4;
+
+}
+.tituloComentario{
+  width: 100%;
+  height: 60px;
+  background-color: #4682b4;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-family: RalewayRegular;
+}
+.isolamento{
+  width: 92%;
+  height: 100%;
+  background-color: ;
+  float: left;
+}
+.button{
+  width: 8%;
+  height: 100%;
+  background-color: ;
+  float: left;
+}
+.button img{
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.conteudoComentario table{
+  width: 100%;
+  height: 100%;
+
+}
+.conteudoComentario table textarea{
+  width: 99%;
+  height: 200px;
+  font-size: 25px;
+  resize: none;
+}
+.buttonSalvarComentario{
+  border: none;
+  width: 100%;
+  height: 50px;
+  background-color: #4682b4;
+  color: #fff;
+  font-size: 25px;
+}

@@ -1,0 +1,134 @@
+section{
+    height: 828px;
+    background-color: #fcfcf4;
+
+}
+
+.content{
+    height: 100%;
+    width: 85%;
+}
+
+.tituloPg{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    line-height: 70px;
+    font-family: SourceSansRegular;
+    font-size: 33px;
+    color: #0e2568;
+}
+
+.conteudo{
+    width: 100%;
+    height: 90%;
+}
+
+.paginas{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: blue;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.paginas:first-of-type{
+    background-image: url('../imagens/mapinha.jpg');
+    background-position: -100px 0;
+}
+.paginas:nth-of-type(2){
+    background-image: url('../imagens/sobrenos.jpg');
+
+}
+.paginas:nth-of-type(3){
+    background-image: url('../imagens/landing.jpg');
+
+}
+.paginas:nth-of-type(4){
+    background-image: url('../imagens/viajante.jpg');
+    background-position: -130px -50px;
+}
+.paginas:nth-of-type(5){
+    background-image: url('../imagens/binoculo.jpg');
+    background-position: -120px -100px;
+}
+.paginas:nth-of-type(6){
+    background-image: url('../imagens/promo.jpg');
+
+}
+.paginas:nth-of-type(7){
+    background-image: url('../imagens/faleconosco.jpg');
+
+}
+
+
+.paginas:first-of-type, .paginas:nth-of-type(5) {
+    margin-left: 140px;
+}
+
+.nomePagina{
+
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    bottom: -87%;
+    -webkit-transition:0.5s;
+
+}
+
+.nomePagina h1{
+    margin: 0;
+    padding: 0;
+    font-family: SourceSansRegular;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.paginas:hover .nomePagina{
+    bottom: 0;
+    -webkit-transition:0.5s;
+}
+
+.descPg{
+    width: 100%;
+    height: 180px;
+    font-family: Calibri Light;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    line-height: 180px;
+}
+
+.botaoRef{
+    height: 49px;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #4682b4;
+    background-color: #fff;
+    text-align: center;
+    font-family: RalewayRegular;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 49px;
+    color:#4682b4;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.botaoRef:hover{
+    border-color: #fff;
+    background-color: #4682b4;
+    color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}

@@ -1,0 +1,176 @@
+section
+{
+    background-color: #fcfcf4;
+    height: 826px;
+}
+
+#conteudo
+{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#msg
+{
+    color: red;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+#abas
+{
+    width: 40%;
+    height: 50px;
+}
+
+#abas button
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 10px 10px 0px 0px;
+    font-family: SourceSansBold;
+}
+
+#tableBox
+{
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    overflow: auto;
+    border: solid 1px #eee;
+}
+
+#tableBox table
+{
+    table-layout: fixed;
+    width: 100%;
+    max-width: 100%;
+}
+
+#tableBox tr:nth-child(even)
+{
+    background-color: #eee;
+}
+
+#tableBox td
+{
+    border-left: solid 1px #eee;
+    padding-left: 10px;
+    width: 20%;
+    max-width: 20%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#tableBox td:nth-child(5)
+{
+    text-align: center;
+    padding: 0;
+}
+
+#tableBox td:nth-child(1)
+{
+    border-left: none;
+}
+
+#tableBox table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#conta
+{
+    display: none;
+}
+
+#reservas
+{
+    display: none;
+}
+
+#feedback
+{
+    display: none;
+}
+
+#tableBox th
+{
+    width: 20%;
+    max-width: 20%;
+    height: 30px;
+    font-family:SourceSansRegular;
+    background-color: #eee;
+}
+
+#modalVisualizar
+{
+    position: absolute;
+    z-index: 99;
+    width: 600px;
+    height: 475px;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.6);
+    margin:0 auto;
+    right:0;
+    left:0;
+    margin-top: 50px;
+    display: none;
+
+}
+
+#modalConteudo
+{
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+    margin-top: 16px;
+}
+
+#modalConteudo table
+{
+    width: 100%;
+
+}
+
+#modalConteudo table input
+{
+    width: 100%;
+}
+
+#modalConteudo table textarea
+{
+    width: 100%;
+    resize: none;
+    height: 200px;
+}
+
+#modalConteudo table button
+{
+    background-color: #4682B4;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    font-size: 18pt;
+    color: #fff;
+    font-family: RalewayRegular;
+    cursor: pointer;
+    float: right;
+}
+
+#shadowBg
+{
+    z-index: 98;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+}

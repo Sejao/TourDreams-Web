@@ -1,0 +1,383 @@
+/*Conteúdo da página registrousuario.php*/
+section
+{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    margin: 0 auto;
+    background-image: url('../imagens/registrousuario/bg.jpg');
+    background-size: 100% 100%;
+    background-position: 600px;
+}
+
+#registroMsgBox
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #031634;
+    text-align: center;
+    font-family: RalewayRegular;
+    color: #fff;
+}
+/**/
+/*Mensagem lateral*/
+#registroMsg
+{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+#registroMsgBox h1
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 32pt
+}
+/**/
+/*Caixas de registro*/
+#registroBox
+{
+    width: 40%;
+    height: 100%;
+}
+
+#registro
+{
+    width: 80%;
+    height: 85%;
+    border: solid 1px rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#btnRegistroBox
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+
+.btnRegistro
+{
+    width: 100%;
+    height: 75px;
+    background-color: #4682b4;
+    text-align: center;
+    border: solid 1px #4682b4;
+    cursor: pointer;
+}
+
+.btnRegistro span
+{
+    width: 100%;
+    line-height: 3;
+    color: #fff;
+    font-family: RalewayRegular;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.btnRegistro:hover
+{
+    border: solid 1px #4682b4;
+    background-color: #fff;
+}
+
+.btnRegistro:hover > span
+{
+    color: #4682b4;
+}
+/**/
+/*Conteúdo dos registros de usuário comum*/
+#tblRegistroUsuario1
+{
+    font-size: 14pt;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: none;
+}
+
+#tblRegistroUsuario1 input
+{
+    width: 99%;
+    font-size: 14pt;
+}
+
+label{
+    color: #fff;
+}
+
+.btnRegistroPassos
+{
+    width: 100%;
+    height: 50px;
+    background-color: #4682b4;
+    text-align: center;
+    border: solid 1px #4682b4;
+    cursor: pointer;
+    color: #fff;
+    font-family: RalewayRegular;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#tblRegistroUsuario3 input[type="submit"]
+{
+    font-size: 18pt;
+}
+
+.btnRegistroPassos span
+{
+    width: 100%;
+    line-height: 2;
+    color: #fff;
+    font-family: RalewayRegular;
+    font-size: 18pt;
+}
+
+.btnRegistroPassos:hover
+{
+    border: solid 1px #4682b4;
+    background-color: #fff;
+    color: #4682b4;
+}
+
+.btnRegistroPassos:hover > span
+{
+    color: #4682b4;
+}
+
+#tblRegistroUsuario2
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: none;
+    font-size: 14pt;
+}
+
+#tblRegistroUsuario2 input
+{
+    width: 99%;
+    font-size: 14pt;
+}
+
+#tblRegistroUsuario2 input[type="radio"]
+{
+    width: auto;
+    margin-left: 48px;
+}
+
+.txtRg
+{
+    display: none;
+}
+
+.txtCpf
+{
+    display: inline;
+}
+
+#tblRegistroUsuario3
+{
+    font-size: 14pt;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 250px;
+    display: none;
+}
+
+#tblRegistroUsuario3 input
+{
+    width: 99%;
+    font-size: 14pt;
+
+}
+
+#tblRegistroUsuario3 input[type="radio"]
+{
+    width: auto;
+    margin-left: 16px;
+}
+#tblRegistroUsuario3 span
+{
+    color: #aaa;
+    font-size: 12pt;
+
+}
+
+#tblRegistroUsuario3 span span
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+/**/
+/*Conteúdo de registro de parceiro*/
+#tblRegistroParceiro1
+{
+    font-size: 14pt;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: none;
+}
+
+#tblRegistroParceiro1 input
+{
+    width: 99%;
+    font-size: 14pt;
+}
+
+#tblRegistroParceiro2
+{
+    font-size: 14pt;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: none;
+}
+
+#tblRegistroParceiro2 input
+{
+    width: 99%;
+    font-size: 14pt;
+}
+
+#tblRegistroParceiro3
+{
+    color: #fff;
+    font-size: 14pt;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 250px;
+    display: none;
+
+}
+
+#tblRegistroParceiro3 span
+{
+    color: #aaa;
+    font-size: 12pt;
+
+}
+
+#tblRegistroParceiro3 span span
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+/**/
+#msg
+{
+    color: red;
+    font-size: 10pt;
+    text-align: center;
+    width:100%:
+}
+
+.msgerro
+{
+    color: #e52020;
+    font-family: SourceSansRegular;
+    font-size: 19pt;
+}
+
+.resultadovalidacao img
+{
+    width: 32px;
+    height: 32px;
+
+}
+
+#msgok
+{
+    font-size: 14pt;
+    color: #53f442;
+}
+
+#msgnaook
+{
+    font-size: 14pt;
+    color: red;
+}
+
+#bgTOS
+{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    z-index: 99;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.6);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 175px;
+    background-color: #fff;
+    display: none;
+}
+
+#bgTOSCabecalho
+{
+    width:100%;
+    height: 50px;
+    background-color: #4682B4;
+    line-height: 2;
+}
+
+#bgTOSCabecalhoTitulo
+{
+    width: 80%;
+    height: 100%;
+    color: #fff;
+    font-size: 18pt;
+    float: left;
+}
+
+#bgTOSCabecalhoTitulo span
+{
+    padding-left: 16px;
+}
+
+#bgTOSCabecalhoFechar
+{
+    width: 20%;
+    height: 100%;
+    color: #fff;
+    font-size: 18pt;
+    float: right;
+    text-align: right;
+}
+
+#bgTOSCabecalhoFechar span
+{
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+#bgTOSOverflow
+{
+    overflow: auto;
+    width: 100%;
+    height: 550px;
+}
+
+#bgTOSConteudo
+{
+    padding: 16px;
+    font-family: Calibri;
+    text-align: justify;
+}
+
+#bgTOSConteudo p
+{
+    text-indent: 40px;
+}
+
+#bgTOSConteudo ul
+{
+    list-style: disc;
+}
